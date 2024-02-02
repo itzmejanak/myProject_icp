@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box; 
+}
+/* Include padding and border 
+in the element's 
+total width and height */
+
+/* Body styles */
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #050d12;
+}
+
+#main-div {
+  width: 100%;
+  height: 100%;
+  /* background-color: #27f131; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Navbar styles goes here*/
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+
+#navUp {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  background-color: #080606;
+  height: 70px;
+  color: white;
+  padding: 20px 50px;
+}
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-left: 290px;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .searchInput::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  .limitedOffer {
+    padding-left: 150px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  /* Top Navbar styles ends here*/
+  #last{
+    padding-left: 30px;
+  }
+  /* Side Navbar styles goes here */
+nav {
+    z-index: 999;
+    position: fixed;
+    height: 350px;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-color: #05060bb4;
+    padding: 20px 10px;
+    border-radius: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    height: 100%;
+  }
+  
+  nav ul li {
+    width: 100%;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s all ease;
+  }
+  
+  nav ul li a img{
+    width: 20px;
+    transition: 0.2s all ease;
+  }
+
+  nav ul li a span {
+    position: absolute;
+    background-color: #15202ec8;
+    padding: 2px 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s all ease;
+  }
+  
+  nav ul li a.active,
+  nav ul li a:hover {
+    color: #27f131;
+  }
+  
+  nav ul li a.active span,
+  nav ul li a:hover span {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 50px;
+  }
+  
+  nav.active ul li a span {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    margin-left: 15px;
+  }
+  
+  nav.active ul li a:hover span {
+    margin-left: 5px;
+  }
+  /* Side Navbar styles ends here */
+  
+
+
+.research {
+    width: 80%;
+    height: 100%;
+    /* height: 100%; */
+    margin: 50px auto;
+}
+
+.group {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #0a040734;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card h5 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #f3eded;
+}
+
+.card a {
+    text-decoration: none;
+    color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    width: 100px;
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    color: #050d12;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card span {
+    color: #007BFF;
+}
+
+/* Adding some color to the links */
+.card a:hover {
+    color: #0056b3;
+}
+
+/* Adding a subtle background color on hover */
+.card:hover {
+    background-color: #f9f9f9;
+}
+
+.card:hover h5{
+  color: #050d12;
+  background-color: #f9f9f9;
+}
+
+#compare {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #0056b3; */
+  width: 100%; 
+  height: 100%;
+  margin-bottom: 70px; 
+}
+
+/* Set maximum image size */
+.rhs img,
+.lhs img {
+  width: 100%;
+  height: auto;
+  transition: transform 1.7s ease-out;
+}
+
+/* Add a subtle hover animation */
+.rhs:hover img,
+.lhs:hover img {
+  transform: scale(1.05); 
+  border-radius: 10px;
+  transition: transform 0.7s ease-in-out; 
+}
+
+/* Style for headings */
+.rhs h2, .lhs h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff; 
+}
+
+/* Style for paragraphs */
+.rhs p, .lhs p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #cccccc; 
+}
+
+/* Additional styles for the page container */
+.page {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  /* background-color: #0056b3;  */
+  width: 100%;
+  height: 100%;
+}
+
+/* Additional styles for the RHS and LHS sections */
+.rhs, .lhs {
+  width: 45%; 
+  background-color: rgba(4, 18, 34, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 5px;
+  text-align: center;
+  padding: 17px;
+  box-shadow: 5px 7px 8px rgba(255, 255, 255, 0.3); 
+  transition: background-color 1s ease-in-out; 
+}
+
+/* Change background color on hover */
+.rhs:hover, .lhs:hover {
+  box-shadow: 5px 7px 8px rgba(24, 67, 139, 0.3); 
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Footer styles */
+footer {
+  background-color: #080606;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  width: 1200px;
+  margin: 0 auto;
+}

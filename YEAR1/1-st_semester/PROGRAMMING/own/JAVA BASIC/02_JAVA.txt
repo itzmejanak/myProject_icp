@@ -1,0 +1,442 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.....PART_2...<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+section :- 7
+GENERATING FORMULA TO CALCULATE HYPOTANUES ?
+create yourself formula = sqrt(a^2 + b^2)                           done
+
+dont forget to :-
+>>>>atlast<<<<<<
+scanner.close();
+
+
+
+
+
+section :- 8
+HOW WE CAN GENERATE SOME RANDOM VALUES ?
+
+SOME RANDOM VALUES such as :-
+INTEGER
+DOUBLE
+BOOLEAN
+
+to generate the random values we have to import ramdon class:-
+by:-
+import java.util.Random;
+
+and we have to include into main class this such like as scanner :-
+
+Random my_random_num = new random();
+
+lets generate the INT VARIABLES:-
+
+int x = my_random_num.nextInt();
+
+and print it:-
+System.out.println(x);
+
+
+PROBLEMS :-
+when we print the x we got most negetive numbers because we didn't limit the value which we want lets limit it:-
+
+to do so we will pass the value into the 
+
+nextInt(); 
+
+method into the prenthesis.
+ 
+by like this >>>>>>  nextInt(10);    >> this will print ramdom number between 0 to 10
+
+but but there is a small cache because when we pass the limit value into prenthesis it also include 0 so to solve it we will add +1 there like this :-
+
+int x = my_random_num.nextInt(10) + 1;
+
+
+in case of double it always print ramdom number between 0 and 1;
+
+in case of boolean it always print ramdom value true or false ;
+
+
+section 9 :-
+IF STATEMENT IN JAVA ?
+make your self by creating age into int
+
+
+
+
+
+section 10 :-
+HOW SWITCH STATEMENT IN JAVA ?
+make your self by creating day into string
+
+format of case
+
+case "...": System.out.println("....");
+break;
+default "...": System.out.println("....");
+
+
+section 11 :-
+LOGICAL OPERATORS :-
+&& AND    both con.. be true
+|| OR     one cond.. be true
+!  NOT
+
+make your self by creating temperature into int with if statements;
+
+
+
+
+
+section 12 :-
+HOW WHILE LOOP WORKS ?
+
+String scanner = new Scanner(System.in);
+String name = "";
+
+while(name.isBlank){
+ System.out.print("ENTER YOUR NAME");
+  name = scanner.nextLine();
+}
+ System.out.print("HELLO "+ name);
+ 
+}
+
+process:- 
+
+while(name.isBlank) until it get name from user and put that name into 
+ here... String name = "";
+it will loop again again;
+
+when it get name from the user it will display
+
+System.out.print("HELLO "+ name);
+
+
+DO WHILE LOOP :-
+
+String scanner = new Scanner(System.in);
+String name = "";
+
+do {
+ System.out.print("ENTER YOUR NAME");
+  name = scanner.nextLine();
+}while(name.isBlank);
+
+ System.out.print("HELLO "+ name);
+}
+
+it will do same thing until while cond meets true and print the result.
+
+both are same works as same as while.
+
+
+
+section:- 13
+HOW FOR LOOPS WORKS ?
+excutes a block of code a limited amount of time:-
+
+for(int i = 0; i<=10; i++){
+ System.out.println(i);
+}
+
+
+
+section:- 14
+HOW THE NESTED LOOPS WORKS IN JAVA?
+a loop inside of a loop;
+
+Scanner scanner = new Scanner(System.in);
+int rows;
+int column;
+String symbol;
+
+System.out.println("Enter number of rows");
+rows = scanner.nextInt();
+System.out.println("Enter number of column");
+column = scanner.nextInt();
+System.out.println("Enter symbol to use");
+symbol = scanner.nextLine();
+
+for(int i = 1; i<=rows; i++){
+ System.out.println();
+  for(int j = 1; j<=column; j++){
+ System.out.println(symbol);
+}
+}
+
+
+section:- 15
+HOW THE ARRAYS WORKS IN JAVA ?
+
+String[] cars = {"camaro", "buatni", "lambo"};
+
+
+
+to access the car camaro
+cars[0] = "Mustang";  0 = index number && camaro is in 1 position
+
+System.out.println(cars[0]);
+
+
+
+ADDITIONAL WAY TO CREATE ARRAYS :-
+
+String[] cars = new String[3];   declare how much string we need into this array = 3
+
+car[0] = "camaro";
+car[1] = "butani";                assign the value of an arrys here
+car[3] = "lambo";
+
+System.out.println(cars);          print
+
+
+
+next way to print array by for loop;
+
+for (int i = 0; i<cars.length; i++){
+  System.out.println(cars[i]);
+}
+
+
+
+section:- 16
+2D ARRAYS:-
+ --an array of arrays of rows and clomun
+
+String[][] cars = new String[][]; declare how much string we need into this array = 3
+
+car[0][0] = "camaro";
+car[0][1] = "butani";                assign the value of an arrys here
+car[0][2] = "lambo";
+car[1][0] = "tesla";
+car[1][1] = "mustang";
+car[1][2] = "ranger";
+car[2][0] = "farai";
+car[2][1] = "silverado";
+car[2][2] = "F-150";
+
+
+
+print  :----
+
+for (int i = 0; i<cars.length; i++){
+  System.out.println();
+       for (int j = 0; j<cars[i].length; j++){
+       System.out.print(cars[i][j]);
+    }
+
+}
+
+
+
+
+section:- 16
+FEW USEFUL METHOD OFF THE STRING CLASS ?
+
+we can compare any string is they are equal :-
+
+string bname = "Bro";
+
+boolean result = name.equalsIgnoreCase(""Bro);
+
+SOP(result);
+
+
+WE ALSO FIND THE LENGTH OF THE STRING:-
+
+int result = bname.length();
+
+SOP(result);
+
+
+WE ALSO access the some special character of the string by passing the value of index no:-
+
+char result = bname.charAt(0);      result == B;
+SOP(result);
+
+
+WE WILL ALSO FIND THE INDEX OF THE STRING:-
+
+int result = bname.indexOf("B");
+SOP(result);
+
+
+WE ALSO FIND IS OUR STRING IS THERE OR NOT;
+
+boolean result = bname.isEmpty();
+SOP(result);
+
+
+
+WE ALSO CHANE THE STRING INTO UPPCASE AND LOWER CASE :-
+
+String result = bname.toUppercase();
+String result = bname.toLowercase();
+
+
+We can also trim the empty space between the string:-
+
+string bname = "  bro   ";
+string result = bname.trim();
+
+
+WE ALSO REPLASE THE SOME CHARACTER INTO MY STRING :-
+
+String result = bname.replace('0', 'a');
+SOP(result);
+
+
+
+section:- 17
+WRAPPER CLASSES:-
+
+In wrapper class all the first letter of data types are capital:-
+
+primitives data types                   wrapper/references data
+boolean                                 Boolean
+char                                    Character
+int                                     Integer
+double                                  Double
+
+
+Why we need references data types :-
+---IF we use references data types we can excess some use ful method for that data types thata we have alraeady learn into section 16 at srring alongside in primitives data types we cannot use that use ful method:-
+
+some useful methods :-
+
+
+
+section:- 18
+ARRAYLIST in JAVA:-
+
+ArrayList<String> food = new ArrayList<String>();
+
+
+we can add values for this aaarylist:-
+
+food.add("pizza");
+
+food.add("momos");
+
+food.add("burgur");
+
+print:-
+for(int i = 0; i<food.size(); i++){
+   SOP(food.get(i));
+}
+
+we can set new vanule for the aaary list:-
+food.set(index, values)   >>>>>>>>>> food.set(0, "samosa")
+
+
+we can remove value for the aaary list:-
+food.remove(index)   >>>>>>>>>> food.set(0);
+
+we can clear whole aaary list:-
+food.clear();
+
+
+section:- 19
+2D ARRAYSLIST:-
+ --an array of arrays of rows and clomun
+
+ArrayList<ArrayList<String>> allproduct = new ArrayList();   step 2
+
+            step 1
+ 
+ArrayList<String> bt = new ArrayList<String>();  
+ bt.add("pasta");
+ bt.add("garlic");
+ bt.add("donuts");
+
+ArrayList<String> pd = new ArrayList<String>();
+ pd.add("tomatos");
+ pd.add("pappers");
+ pd.add("potatao");
+
+ArrayList<String> dl = new ArrayList<String>();
+ dl.add("juice");
+ dl.add("rum");
+ dl.add("cocacola");
+
+
+step 3
+
+allproduct.add(bt);
+allproduct.add(pd);
+allproduct.add(dl);
+
+SOP(allproduct);              to print all.
+
+if we want to print some special list did it same as before :-
+
+
+SOP(allproduct.get(0)); 
+where,
+get(0);  represent the index of zero to be print out and wee will se all thw bt aaray list is printed out;
+
+if we want to print some special list into some special index:-
+SOP(allproduct.get(0).get(0));
+
+means first element first index is to be print.
+
+
+
+
+section:- 18
+For each loop into the java :-
+
+String[] animals = {"camaro", "buatni", "lambo"};
+
+for (String i : animals) {
+   SOP(i);
+}
+
+
+
+ArrayList<String> ani = new ArrayList<String>(); 
+ ani.add("pasta");
+ ani.add("garlic");
+ ani.add("donuts");
+
+for (String i : ani) {
+   SOP(i);
+}
+
+
+
+section:- 19
+METHODS IN JAVA ?
+a block of code that is executed whenever it is called upon;
+
+
+public sattic void main(String[] args){
+          //it is the default main method of java
+     //where we call we made out method
+     String name = "Bro";
+     hello(name);
+}
+
+
+
+my method types:-
+
+static void hello(String name){
+ SOP("helllo" + name);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+
+
+
+INSERT INTO students VALUES (1, 'Jack', 'Black', 'KtM'), (2, 'kenny', 'Diglish', 'Pkr'), (3, 'john', 'jones', 'KTM');
+INSERT INTO instructors VALUES (1, 'John', 'smith', 'lecturer'), (2, 'Andrew', 'NG', 'Professor');
+INSERT INTO courses VALUES(1, "python", "programming course", 2, 20000), (2, "java", "programming course",1, 30000);
+INSERT INTO students VALUES (1, 'Jack', 'Black', 'KtM'), (2, 'kenny', 'Diglish', 'Pkr'), (3, 'john', 'jones', 'KTM');
+INSERT INTO enrollments VALUES (1, 2,1), (2,1,2),(3, 1,3),(4, 2,3);
+
+
+select * from courses;
+select *  from enrollments;
+select * from students;
+select * from instructors;
+
+
+                    H/W
+#########3>>>>>A D E H I J K N O<<<<<##########

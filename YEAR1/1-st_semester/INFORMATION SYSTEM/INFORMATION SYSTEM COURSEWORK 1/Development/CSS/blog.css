@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Include padding and border 
+in the element's 
+total width and height */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top Navigation Styles Goes here*/
+#navUp {
+  background-color: #0a1317;
+  padding: 10px 0;
+  box-shadow: 5px 26px 10px rgba(12, 53, 23, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navTop {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  margin-right: 20px;
+}
+
+.navItem img {
+  height: 27px;
+}
+
+.search {
+  position: relative;
+}
+
+.searchInput {
+  padding: 8px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.limitedOffer {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fa-cart-shopping {
+  font-size: 24px;
+  color: #f80032; /* Set the color for your cart icon */
+  cursor: pointer;
+}
+/* Top Navigation Styles ends here*/
+
+
+
+
+/* side navbar goes here */
+nav {
+    z-index: 999;
+    position: fixed;
+    height: 350px;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-color: #05060bf4;
+    padding: 20px 10px;
+    border-radius: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    height: 100%;
+  }
+  
+  nav ul li {
+    width: 100%;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s all ease;
+  }
+  
+  nav ul li a img{
+    width: 20px;
+    transition: 0.2s all ease;
+  }
+
+  nav ul li a span {
+    position: absolute;
+    background-color: #15202ec8;
+    padding: 2px 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s all ease;
+  }
+  
+  nav ul li a.active,
+  nav ul li a:hover {
+    color: #27f131;
+  }
+  
+  nav ul li a.active span,
+  nav ul li a:hover span {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 50px;
+  }
+  
+  nav.active ul li a span {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    margin-left: 15px;
+  }
+  
+  nav.active ul li a:hover span {
+    margin-left: 5px;
+  }
+  
+  /* Side navbar end here */
+
+
+.container {
+    width:94%;
+    margin: 30px auto;
+}
+
+
+.box{
+  margin-top: 30px;
+}
+
+.blog-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #0743a4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    color: #a19c9c;
+    margin-bottom: 30px;
+    display: flex;
+    transition: all 0.3s ease; /* Moved the transition property to the main selector */
+}
+
+.blog-post img {
+    width: 40%;
+    border-radius: 1% 39% 52% 48% / 44% 59% 41% 56%;
+    object-fit: cover;
+}
+.blog-content {
+    margin-left: 30px;
+    flex: 1;
+    padding: 20px;
+}
+
+.blog-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f8f3f3;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    font-size: 16px;
+    color: #d2cfcf;
+    line-height: 1.6;
+}
+
+.impact-section {
+    margin-top: 20px;
+}
+
+.impact-section h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #d0caca;
+    margin-top: 10px;
+}
+
+.impact-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.impact-section ul li {
+    font-size: 14px;
+    color: #a19b9b;
+    line-height: 1.6;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+/* Simplified the right class styling by combining with blog-post.right */
+.blog-post.right {
+    flex-direction: row-reverse;
+}
+

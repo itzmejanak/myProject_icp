@@ -1,0 +1,128 @@
+mysql -h localhost -u root
+
+CREATE DATABASE MyStore; 
+
+SHOW DATABASES;
+
+USE MyStore;
+
+CREATE TABLE suppliers (supplierID INT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255), phone VARCHAR(255));
+
+INSERT INTO suppliers (supplierID, name, address, phone) VALUES (1, 'Adidas', 'Lalitpur', '889-22-12'), (2, 'Nivea', 'Pokhara', '686-48-34'), (3, 'CG', 'Kathmandu', '950-43-11');
+
+select * from suppliers;
+
+
+
+
+CREATE TABLE products (productID INT PRIMARY KEY, product_code VARCHAR(255), name VARCHAR(255), quantity INT, price INT, supplier INT, FOREIGN KEY (supplier) REFERENCES suppliers(supplierID));
+
+INSERT INTO products (productID, product_code, name, quantity, price, supplier) VALUES (1, 'p001', 'waiwai', 10000, 20, 3), (2, 'p002', 'cream', 2000, 200, 2), (3, 'p003', 'shirt', 2500, 600, 1), (4, 'p004', 'pant', 5000, 1200, 1), (5, 'p005', 'tv', 50000, 50000, 3);
+
+select *  from products;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#############################################..........H/W................#########################################################
+
+
+             NO.A
+-- Show all records from both tables
+SELECT * FROM suppliers;
+SELECT * FROM products;
+
+             NO.B
+-- Show the names and prices of all products
+SELECT name, price FROM products;
+
+
+             NO.c
+-- Show the productID and quantity of all the products
+SELECT productID, quantity FROM products;
+
+             NO.D
+-- Show the names and phone numbers of all the suppliers
+SELECT name, phone FROM suppliers;
+
+             NO.E
+-- Show the phone number of the supplier named “Adidas”
+SELECT phone FROM suppliers WHERE name = 'Adidas';
+
+             NO.F
+-- Show all the products having supplier as 1
+SELECT * FROM products WHERE supplier = 1;
+
+             NO.G
+-- Show the names and prices of products which are expensive than 500
+SELECT name, price FROM products WHERE price > 500;
+
+             NO.H
+-- Show the product_code and quantity of the products having quantity less than or equal to 5000
+SELECT product_code, quantity FROM products WHERE quantity <= 5000;
+
+             NO.I
+-- Show the price of “waiwai”
+SELECT price FROM products WHERE name = 'waiwai';
+
+
+             NO.J
+-- Show all the details of the products which are expensive than 500 and having quantity greater than 2000
+SELECT * FROM products WHERE price > 500 AND quantity > 2000;
+
+
+             NO.K
+-- Change the price of “waiwai” to 30
+UPDATE products SET price = 30 WHERE name = 'waiwai';
+
+
+             NO.L
+-- Change the quantity of cream to 1500
+UPDATE products SET quantity = 1500 WHERE name = 'cream';
+
+
+             NO.M
+-- Delete the data of “waiwai” from the products table
+DELETE FROM products WHERE name = 'waiwai';
+
+
+             NO.M
+-- Add a column named “info” with type VARCHAR(255) in the products table
+ALTER TABLE products ADD COLUMN info VARCHAR(255);
+
+
+             NO.O
+-- In the products table, set the value of the column “info” to “from CG group” where supplier is equal to 3
+UPDATE products SET info = 'from CG group' WHERE supplier = 3;
+
+
+
+#############################################..........DONE................#########################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

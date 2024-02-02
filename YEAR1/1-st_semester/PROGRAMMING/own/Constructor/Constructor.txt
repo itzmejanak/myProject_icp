@@ -1,0 +1,192 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>Constructor<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+constructor is a block similar to methoh having same name as a class name.
+
+eg:-
+public class Janak{
+
+public janak{                        //it is a constructor
+
+}
+
+
+}
+
+//the only modifier are applicable for ythe consytructor are public private procted and default.
+
+
+//how it call
+
+it excuted automaticall when we create an object
+by this :-- Janak zaan = nre Janak();      //here its exucated automatically
+
+no need to call the like Janak();
+
+
+
+
+
+
+why we use constructior ??
+
+for eg:-
+
+public class employee {
+string anme;
+int emo_id;
+
+
+public satatic void main(String [] args){
+
+Employe e1 = new Employe ();
+Employe e1 = new Employe ();
+
+}
+}
+
+in this case we can clearly see that there are two object and two object have same value which  means the employee class have two data types and there bydefault value is string = null and int = 0 so there is the confilcts between two object so we have to create constuctor to resolve this isssue.
+
+
+Object initialize :-
+
+by references varivariable 
+eg:-
+
+for eg:-
+
+public class employee {
+string anme = "janak"
+int emo_id = 101;
+
+
+public satatic void main(String [] args){
+
+Employe e1 = new Employe ();
+Employe e2 = new Employe ();
+
+}
+}
+
+if we create an object by using references variable we got the issue of repetation which is not good practice to create object.
+
+
+
+
+Object initialize :-
+
+by references varivariable 
+eg:-
+
+for eg:-
+
+public class employee {
+string anme;
+int emo_id;
+
+
+public satatic void main(String [] args){
+
+Employe e1 = new Employe ();
+e1.name = "janak";
+e1.emo_id = "101";
+
+Employe e2 = new Employe ();
+e2.name = "janak";
+e2.emo_id = "101";
+
+}
+}
+
+we can follow this approach becaue there is not repetation of the data types and the value
+but there is one chace whic is that if we have more or to much employe lets say 100000 of employes are there then it will gaonna a very leanthy process so this approach doesent wrork in such case.
+
+
+
+So when we want all the emolyee should be unique in that case we use constructor
+
+for eg:-
+
+public class employee {
+string anme;
+int emo_id;
+
+public employee(String name, int emo_id){   //parameterized constuctor
+this.mname = name;
+this.emo_id = empId;
+
+}
+
+
+public satatic void main(String [] args){
+
+Employe e1 = new Employe ();
+e1.name = "janak";
+e1.emo_id = "101";
+
+Employe e2 = new Employe ();
+e2.name = "janak";
+e2.emo_id = "101";
+
+}
+}
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>CONTINUE
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>....JAVA CONSTRUCTOR.......<<<<<<<<<<<<<<<<<<<
+1.
+Default constructor          /.. >>> no-args constuctor
+eg:-
+
+class{
+int i;
+string s;
+
+public main{
+test t = new test
+sop(t.i + t.s)
+}
+}
+
+
+2.
+no-args constuctor           //programmer created but not pass paramater  user define
+
+public class T {
+int i;
+string s;
+
+T(no args pass){
+SOP(no-args constuctor);
+}
+public main{
+test t = new test
+sop(t.i + t.s)
+}
+}
+
+
+
+
+paramerazied constructor          //programer pass the paramater will will use it a lot
+public class T {
+
+T( int i ){
+SOP(paramerazied constructor);
+}
+public main{
+T t = new T(10)
+}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+
+
+WIN + R
+list disk
+select disk name
+clean
+create partation

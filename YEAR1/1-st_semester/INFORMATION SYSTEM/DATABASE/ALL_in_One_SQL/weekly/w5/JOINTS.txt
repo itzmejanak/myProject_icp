@@ -1,0 +1,100 @@
+SQL JOINS :-
+
+1. Inner join:-
+-- it is that kind of join  in where we can join only commo value of two tables.
+
+query;-
+ 
+   SELECT * FROM table_1, table_2 
+   WHERE table_1.columnName = table_2.columnName;
+  (note: we cant get get non comman value)
+
+proper query for it :-
+ -- SELECT * FROM table_1
+    JOIN table_2
+    ON table_1.columnName = table_2.columnName;
+
+if we want to fetch some special column of both table we all have to need is JOIN for eg:-
+
+
+SELECT table_1.columnName, name, price
+FROM customers,
+JOIN table_2,
+ON table_1.columnName = table_2.columnName;
+
+(note: columnName are primary key obtain column which is also must be the FK of anouther table) 
+
+
+
+2. LEFT join:-
+-- left join is that kind of joints in where we can fetch common value of common column of both table but also we will fetch all the uncommon value of the left table:-
+
+query;-
+SELECT column_name 
+FROM table_1 
+LEFT JOIN table_2
+ON table_1.columnName = table_2.columnName;
+
+
+3. RIGHT join:-
+-- right join is that kind of joints in where we can fetch common value of common column of both table but also we will fetch all the uncommon value of the right table:-
+
+query;-
+SELECT column_name 
+FROM table_2 
+RIGHT JOIN table_1
+ON table_2.columnName = table_1.columnName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

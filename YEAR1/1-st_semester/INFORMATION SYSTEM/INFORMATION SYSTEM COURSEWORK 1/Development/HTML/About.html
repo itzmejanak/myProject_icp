@@ -1,0 +1,160 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/About.css">
+    <title>About Us</title>
+    <style>
+      .name-profession .profession {
+       font-size: 15px;
+       font-weight: 500;
+      }
+
+      .card-content .rating i {
+        font-size: 22px;
+        color: var(--clr);
+        margin: 0 2px;
+        opacity: .75;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-div">
+    <section id = "NAVBAR">
+<!-- Side 
+Navigation 
+(MAIN NAV-BAR)
+bar Start here-->
+  <nav id="menuBar">
+    <ul>
+      <!-- Toggle Menu button -->
+      <li>
+          <a href="javascript:toggleMenu()">
+              <img src="../Resources/ICON/icons8-menu-50.png" alt="">
+              <span>Menu</span>
+          </a>
+      </li>
+      <!-- Other menu items -->
+      <li>
+          <a href="../HTML/Home.html">
+              <img src="../Resources/ICON/icons8-home-50.png" alt="">
+              <span>Home</span>
+          </a>
+      </li>
+      <li>
+          <a href="../HTML/blog.html">
+              <img src="../Resources/ICON/icons8-blog-50.png" alt="">
+              <span>Blog</span>
+          </a>
+      </li>
+      <li>
+          <a href="../HTML/Produtcs.html">
+              <img src="../Resources/ICON/icons8-products-50.png" alt="">
+              <span>Products</span>
+          </a>
+      </li>
+      <li>
+          <a href="../HTML/Research.html">
+              <img src="../Resources/ICON/icons8-research-50.png" alt="">
+              <span>Research</span>
+          </a>
+      </li>
+      <li>
+          <a href="../HTML/About.html">
+              <img src="../Resources/ICON/icons8-about-us-50.png" alt="">
+              <span>About Us</span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <img src="../Resources/ICON/icons8-coffee-mug-50.png" alt="">
+              <span>Support</span>
+          </a>
+      </li>
+  </ul>
+</nav>
+<!-- Side Navigation bar ends here-->
+    </section>
+  </div>
+    <section id="team" style="width: 100%; position: fixed;">
+      <div class="container" style="width: 100%;">
+        <div class="box mySwiper" style="width: 100%;">
+          <div class="content swiper-wrapper" style="width: 100%;">
+            <div class="row" style="width: 100%;">
+              <div class="card swiper-slide">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="../Resources/About img/img1.jpg" alt="">
+                  </div>
+                  <div class="name-profession">
+                    <span class="name">Bishwash Thapa Magar</span>
+                    <span class="profession">UX Designer</span>
+                  </div>
+                  <a href="../HTML/About_info.html"><button style="--clr:#ff0f5b">View</button></a>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="../Resources/About img/img3.jpg" alt="">
+                  </div>
+                  <div class="name-profession">
+                    <span class="name">Anish Subedi</span>
+                    <span class="profession">YouTuber</span>
+                  </div>
+                  <a href="../HTML/About_info.html"><button style="--clr:#fea401">View</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="center-card swiper-slide" id="cen" style="position: relative; top: 25%; border-radius: 35%; padding: 30px;">
+              <div class="card-content" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <div class="image">
+                  <img src="../Resources/About img/img5.jpg" alt="">
+                </div>
+                <div class="name-profession">
+                  <span class="name">Janak Devkota</span>
+                  <span class="profession">Web Developer</span>
+                </div>
+                <a href="../HTML/About_info.html"><button style="--clr:#be01fe">View</button></a>
+            </div>
+          </div>
+            <div class="row" style="width: 100%; margin-right: 70px;">
+              <div class="card swiper-slide">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="../Resources/About img/img2.jpg" alt="">
+                  </div>
+                  <div class="name-profession">
+                    <span class="name">BiGyat Thapa</span>
+                    <span class="profession">Blogger</span>
+                  </div>
+                  <a href="../HTML/About_info.html"><button style="--clr:#ff0f5b">View</button></a>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="../Resources/About img/img4.jpg" alt="">
+                  </div>
+                  <div class="name-profession">
+                    <span class="name">Parmeshwor Thapa</span>
+                    <span class="profession">Backend Developer</span>
+                  </div>
+                  <a href="../HTML/About_info.html"><button style="--clr:#be01fe">View</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </script>
+    <!-- custom js -->
+    <script src="../JavaScript/Home.js"></script>
+  </body>
+
+  </html>

@@ -1,0 +1,272 @@
+mysql -h localhost -u root
+
+SHOW DATABASES;
+
+USE database_name
+
+SHOW TABLES;
+
+catagory:-
+                                1. CREATE, DROP, ALTER
+                                i. CREATE
+ CREATE TABLE table_name (id, name, and so on with required constrant eg:- PRIMARY KEY, INT  VARCHAR(), UNIQUE, DEFAULT, NOT NULL, AUTO_INCREMENT, FOREIGN KEY(column_name) REFRENCES table_name (column_name));
+
+
+                               // after creating table
+ 
+ DESCRIBE table_name;
+                              ii. to DROP the table and database
+
+ DROP DATABASE db_name;
+ DROP TABLE tb_name;
+
+
+                              iii. to ALTER the table
+
+// add the column to existing table
+   ALTER TABLE table_name ADD COLUMN column_name;
+
+//modyfy column's attributes
+  ALTER tb_name MODIFY COLUMN column_dtls;
+
+//delete a column from the table
+  ALTER TABLE tb_name DROP COLUMN column_name;
+
+
+
+//TO RENAME THE TABLE
+ALTER TABLE [tablename] RENAME to [newOne];
+
+
+//TO DELETE ALL THE DATA OF THE TABLE NOT TABLE WHOLE                                            //DO NOT USE DROP TABLE
+TRUNCATE TABLE [table_name];
+
+
+
+
+
+
+
+                                2. INSERT SELECT, UPDATE, DELETE
+
+                                i. INSERT && SELECT
+
+ INSERT INTO table_name (column_name, column_name, column_name,)
+                       VALUES("varchar", int, 'DATE_YY/M/DAY_');
+
+                          //after inserting into the table 
+
+  SELECT * FROM table_name;
+
+//to select special column of the table;
+  SELECT column_name, comumn_name FROM table_name;
+
+
+// filter and search the data 
+   SELECT * FROM tb_name WHERE clumn_name <operators> <value>;
+
+
+//to see the details of some row 
+  SELECT column_name WHERE row_elem = "varchar", int;
+
+
+                                ii. UPDATE
+ UPDATE tb_name SET column1_name = value1, column2_name = value2..... WHERE some_column =    some_value;
+
+
+
+                                ii. DELETE
+//to delete all rows
+  DELETE FROM tb_name;
+
+
+
+
+
+                                A. SQL--Clause
+// WHERE-Clause:-
+  SELECT * FROM tb_name WHERE clumn_name <operators> <value>;
+
+// Using where clause with date
+  //year
+  SELECT * FROM tb_name WHERE year(DOB) = '1999';
+ //months
+  SELECT * FROM tb_name WHERE month(DOB) = "S";
+ //Day
+  SELECT * FROM tb_name WHERE DAY(DOB) >= 10 AND DAY(DOB) <= 15;
+
+
+
+
+// BETWEEN-Clause:-
+SELECT * FROM tb_name WHERE address BETWEEN "banepa" AND "ktm";
+SELECT * FROM tb_name WHERE price BETWEEN 200 AND 500;
+
+
+
+// IN-Clause:-
+SELECT * FROM tb_name WHERE customer_id IN(1,2,3,4);
+
+
+// LIKE-Clause:-
+SELECT * FROM tb_name WHERE address LIKE "k%";
+SELECT * FROM tb_name WHERE address LIKE "%u";
+SELECT * FROM tb_name WHERE address LIKE "%it%";
+
+
+
+
+
+                                B. SQL--Aggregate functions
+SUM():-
+SELECT SUM(price) FROM table_name;
+
+MAX():-
+SELECT MAX(price) FROM table_name;
+
+MIN():-
+SELECT MIN(price) FROM table_name;
+
+AVG():-
+SELECT AVG(price) FROM table_name;
+
+
+
+
+                                C. SQL--ORDER BY-clause
+
+SELECT * FROM tb_name ORDER BY name, price;
+
+//to order items into decending order
+SELECT * FROM tb_name ORDER BY name, price DESC;
+
+//to order items into decending order with giving limit it
+
+SELECT * FROM tb_name ORDER BY name, price DESC LIMIT 1;
+SELECT * FROM tb_name ORDER BY name, price DESC LIMIT 3;
+
+
+
+
+
+
+
+                                D. SQL--Arithmetic operations
+
+SELECT 2 + 2 AS sum;
+SELECT 5 - 2 AS subs;
+SELECT 2 * 2 AS Multiply;
+SELECT 2 / 2 AS Div;
+SELECT 2 % 2 AS remender;
+
+// for query
+SELECT c1, c2, price, price - (price * 0.10) AS new_price FROM items;
+
+
+
+
+
+                                E. SQL--DISTINCT-clause
+
+SELECT DISTINCT(price, name, id, address) FROM tb_name;
+
+
+
+
+
+
+
+                                E. SQL--COUNT-clause
+
+SELECT COUNT(*) AS total_orders FROM tb_name
+SELECT COUNT(id) AS total_buyers FROM tb_name
+
+
+
+
+
+
+                                E. SQL--GROUP BY-clause
+
+SELECT clmn_name,COUNT(*) AS total_ords FROM tb_name GROUP BY clmn_name;
+SELECT clmn_name, COUNT(*) AS total_ords FROM tb_name GROUP BY clmnn_name;
+SELECT clmn_name, COUNT(*) AS total_sold FROM tb_name GROUP BY clmnn_name ORDER BY total_sold DESC;
+
+
+
+
+
+
+                                E. SQL--HAVING-clause
+SELECT clmn_name, COUNT(*) AS toatal_ords FROM tb_name GROUP BY clmn_name;
+SELECT clmn_name, COUNT(*) AS toatal_ords FROM tb_name GROUP BY clmn_name HAVING total_sold > 1;
+
+
+
+
+LEFT JOIN :-
+SELECT *
+FROM table1
+LEFT JOIN table2
+ON table1.column = table2.column;
+
+
+RIGHT JOIN:-
+SELECT *
+FROM table1
+RIGHT JOIN table2
+ON table1.column = table2.column;
+
+
+FULL [OUTER] JOIN:-
+SELECT *
+FROM table1
+LEFT JOIN table2
+ON table1.column = table2.column
+UNION ALL
+SELECT *
+FROM table1
+RIGHT JOIN table2
+ON table1.column = table2.column
+WHERE table1.column IS NULL;
+
+
+
+
+Joining multiple tables
+SELECT *
+FROM table1
+JOIN table2
+ON table1.column = table2.column
+JOIN table3
+ON table2.column = table3.column;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                3. GRANT, REVOKE
+                                4. COMMIT, ROLLBACK
+
+
+                         
+
+
+
+
+
+
+
+
+

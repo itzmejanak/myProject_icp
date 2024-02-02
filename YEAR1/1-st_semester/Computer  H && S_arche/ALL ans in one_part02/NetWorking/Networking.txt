@@ -1,0 +1,38 @@
+############################...COMPUTER NETWORKING BASIS...#############################
+
+YOUTUBE CHANNEL
+>
+>
+>
+
+CLOUD
+
+LAN
+WLAN
+Packets
+
+
+INTERNET IS THE THE PRODUTCS ITS A SERVICE
+the origin of internet is our diveces
+
+Why we pay for the internet ?
+> for networking
+then what is networking >>>>>>>>>>>>>. router and switch
+is the connection of interconnected of devices.
+eg:- server, devices, routers, switches and other hardware components
+
+if any computer give service to the other devices that is called a server. like sender is the server it can be any kind of the computer.
+ 
+
+HOw internet works ?
+CONTINENTS  > through wire >> big network provider
+COUNTRY
+
+
+HOW DOES ONE PC KNOWS ANOUTHER PC ?
+by Address  >>>> ip not by mac address
+
+
+how does packets transfor from ktm to pkr ?
+>
+

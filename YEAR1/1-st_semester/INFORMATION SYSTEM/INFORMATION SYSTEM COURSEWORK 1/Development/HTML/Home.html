@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and title -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printers Store</title>
+    <!-- Linking external stylesheets -->
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <style>
+        /* New Season Item styles */
+        .nsItem {
+             border-radius: 30px;
+             margin: 20px;
+             flex: 1;
+             background-color: black;
+             color: white;
+             display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            }
+
+        /* New Season Image styles */
+        .nsImg {
+            width: 80%;
+            height: 500px;
+            border-top-right-radius: 30px;
+             border-bottom-left-radius: 70px;
+            }
+    </style>
+</head>
+<body>
+    <!-- Main container div -->
+    <div id="mainDiv">
+        <!-- Navigation bar div -->
+        <div id="nav-bar">
+            <div id="navUp">
+                <!-- Top section of navigation -->
+                <div class="navTop">
+                    <!-- Logo -->
+                    <div class="navItem">
+                        <img style="cursor: zoom-in;" src="../Resources/Home img/logo.png" alt="">
+                    </div>
+                    <!-- Search bar -->
+                    <div class="navItem">
+                        <div class="search">
+                            <input type="text" placeholder="Search..." class="searchInput">
+                            <img src="../Resources/Home img/search.png" width="20" height="20" alt="" class="searchIcon">
+                        </div>
+                    </div>
+                    <!-- Limited Offer -->
+                    <div class="navItem">
+                        <span class="limitedOffer" style="color: green;"><u>Limited Offer!</u></span>
+                    </div>
+                    <!-- Shopping cart icon -->
+                    <div class="navItem">
+                        <i id="haha" style="font-size: 20px; cursor: pointer;">🛒<span
+                                style="color: rgb(248, 0, 50); font-size: 12px;">+1</span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- Side 
+                Navigation 
+                (MAIN NAV-BAR)
+                bar Start here-->
+        <nav id="menuBar">
+            <ul>
+                <!-- Toggle Menu button -->
+                <li>
+                    <a href="javascript:toggleMenu()">
+                        <img src="../Resources/ICON/icons8-menu-50.png" alt="">
+                        <span>Menu</span>
+                    </a>
+                </li>
+                <!-- Other menu items -->
+                <li>
+                    <a href="../HTML/Home.html">
+                        <img src="../Resources/ICON/icons8-home-50.png" alt="">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../HTML/blog.html">
+                        <img src="../Resources/ICON/icons8-blog-50.png" alt="">
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../HTML/Produtcs.html">
+                        <img src="../Resources/ICON/icons8-products-50.png" alt="">
+                        <span>Products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../HTML/Research.html">
+                        <img src="../Resources/ICON/icons8-research-50.png" alt="">
+                        <span>Research</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../HTML/About.html">
+                        <img src="../Resources/ICON/icons8-about-us-50.png" alt="">
+                        <span>About Us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../Resources/ICON/icons8-coffee-mug-50.png" alt="">
+                        <span>Support</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Side Navigation bar ends here-->
+
+        <!-- Header section main page goes here-->
+        <header id="main-page">
+            <div class="content">
+                <!-- Left side content -->
+                <div class="left">
+                    <!-- Heading and buttons -->
+                    <h1
+                        style="color: rgb(255, 255, 255); background-color: rgba(10, 13, 14, 0.112); font-weight: 900; border-radius: 40px;">🌟
+                        Explore the World of<br> <span
+                            style="color: rgba(21, 177, 42, 0.763);"><\#></span>Printing Excellence
+                        🌟</h1>
+                    <div id="button">
+                        <!-- Shop Now and Explore buttons -->
+                        <a href="./Produtcs.html"><button class="btn">Shop now!</button></a>
+                        <button class="btn"
+                            style="height: 10px; display: flex; align-items: center; padding: 20px; margin-top: 20px; background-color: rgb(248, 166, 160);"><a
+                                href="../HTML/Produtcs.html" style="text-decoration: none;">Explore..</a></button>
+                    </div>
+                </div>
+                <!-- Right side content -->
+                <div class="right">
+                    <!-- Image or other content -->
+                    <!-- ... -->
+                </div>
+            </div>
+        </header>
+       <!-- Header section main page ends here-->
+
+
+      <!-- Slider section Items goes here-->
+     <div class="slider">
+        <!-- Slider wrapper for items -->
+        <div class="sliderWrapper">
+            <!-- Slider item 1 -->
+            <div class="sliderItem">
+                <img src="../Resources/Home img/air.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HP 619</br> PRO</br> SERIES</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+
+            <!-- Slider item 2 -->
+            <div class="sliderItem">
+                <img src="../Resources/Home img/jordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CANNON RX</br> NEW</br> EDITION</h1>
+                <h2 class="sliderPrice">$149</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+
+            <!-- Slider item 3 -->
+            <div class="sliderItem">
+                <img src="../Resources/Home img/blazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HP MINI</br> PRO</br> MODEL</h1>
+                <h2 class="sliderPrice">$109</h2>
+                <a href="../HTML/Produtcs.html">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+
+            <!-- Slider item 4 -->
+            <div class="sliderItem">
+                <img src="../Resources/Home img/crater.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">EPSON K69</br> EXTRA</br> BOOM!</h1>
+                <h2 class="sliderPrice">$129</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+
+            <!-- Slider item 5 -->
+            <div class="sliderItem">
+                <img src="../Resources/Home img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">EPSON F57</br> INNOVATIVE</br> SOLUTIONS</h1>
+                <h2 class="sliderPrice">$99</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+     </div>
+     <!-- Slider section Items ends here-->
+
+     <!-- Features section goes here-->
+     <div class="features">
+        <!-- Feature 1 -->
+        <div class="feature">
+            <img src="../Resources/Home img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature">
+            <img class="featureIcon" src="../Resources/Home img/return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature">
+            <img class="featureIcon" src="../Resources/Home img/gift.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature">
+            <img class="featureIcon" src="../Resources/Home img/contact.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+      </div>
+     <!-- Features section ends here-->
+
+        <!-- Product section Buying Goes here-->
+        <div class="product" id="product">
+            <!-- Product details with image, title, price, description, etc. -->
+            <div id="produtM">
+                <img src="../Resources/Home img/air.png" alt="" class="productImg">
+            </div>
+            <div class="productDetails">
+                <h1 class="productTitle">HP 619 Pro</h1>
+                <h2 class="productPrice" style="color: bisque;">$199</h2>
+                <p class="productDesc">High-quality printer in excellent condition. 
+                    Fast and efficient, perfect for home or office use. Contact for details and price. 
+                    Don't miss out on this great deal!".</p>
+                <!-- Color and size options... -->
+                <div class="colors">
+                    <div class="color" style="display: flex; align-items: center; justify-content: center; font-size: 6px;">
+                        <h1 style="color: white;">▷</h1>
+                    </div>
+                    <div class="color" style="display: flex; align-items: center; justify-content: center; font-size: 6px;">
+                        <h1 style="color: white;">◁</h1>
+                    </div>
+                </div>
+                <div class="sizes">
+                    <div class="size">new</div>
+                    <div class="size">stock</div>
+                    <div class="size">sale</div>
+                </div>
+                <!-- Buy Now button... -->
+                <a href="../HTML/Produtcs.html"><button class="productButton">BUY NOW!</button></a>
+            </div>
+        </div>
+        <!-- Product section Buying ends here-->
+
+
+            <!-- Gallery section goes here-->
+      <div class="gallery">
+        <!-- Gallery items with titles and images -->
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Best Option!</h1>
+            <img src="../Resources/Home img/G1.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="../Resources/Home img/G2.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">Print Your life long Journey with Us!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Have you Dream with Colorful Wrold!</h1>
+            <img src="../Resources/Home img/G3.jpg"
+                alt="" class="galleryImg">
+        </div>
+     </div>
+     <!-- Gallery section ends here-->
+
+     <!-- New Season section -->
+     <div class="newSeason">
+        <!-- New Season items with images and titles -->
+        <div class="nsItem">
+            <img src="../Resources/Home img/f1.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">DREAMS ARRIVALS</h3>
+            <h1 class="nsTitle">New RainBow</h1>
+            <h1 class="nsTitle">DREAM BIG HERE!</h1>
+            <a href="../HTML/Produtcs.html">
+                <button class="nsButton">CHOOSE YOUR LIFE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="../Resources/Home img/f2.jpg"
+                alt="" class="nsImg">
+        </div>
+     </div>
+
+     <!-- Footer section -->
+     <footer>
+        <!-- Left side footer content -->
+        <div class="footerLeft">
+            <!-- Footer menus with links -->
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Hewlett-Packard</li>
+                    <li class="fListItem">Epson</li>
+                    <li class="fListItem">Canon</li>
+                    <li class="fListItem">HP</li>
+                    <li class="fListItem">Brother Industries</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Right side footer content -->
+        <div class="footerRight">
+            <!-- Footer newsletter subscription and social media icons -->
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="../Resources/Home img/facebook.png" alt="" class="fIcon">
+                    <img src="../Resources/Home img/twitter.png" alt="" class="fIcon">
+                    <img src="../Resources/Home img/instagram.png" alt="" class="fIcon">
+                    <img src="../Resources/Home img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Janak Dev. All rights reserved. 2024.</span>
+            </div>
+        </div>
+     </footer> 
+     <!-- custom JavaScript file -->
+    <script src="../JavaScript/Home.js"></script>
+</div>
+</body>
+
+</html>

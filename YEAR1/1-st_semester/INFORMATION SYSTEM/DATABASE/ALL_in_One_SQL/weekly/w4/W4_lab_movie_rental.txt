@@ -1,0 +1,141 @@
+CREATE TABLE genres(
+  genreID INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(20) NOT NULL
+);
+
+DESCRIBE genres;
+
+INSERT INTO genres (genreID, name) VALUES
+  (1, 'Action'),
+  (2, 'Comedy'),
+  (3, 'Horror'),
+  (4, 'Animation'),
+  (5, 'Musical');
+
+SELECT * FROM genres;
+
+
+
+CREATE TABLE movies (
+  movieID INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(30) NOT NULL,
+  releaseDate DATE NOT NULL,
+  genre INT NOT NULL,
+  pricePerDay INT NOT NULL,
+  FOREIGN KEY (genre) REFERENCES genres(genreID)
+);
+
+DESCRIBE movies;
+
+INSERT INTO movies (movieID, name, releaseDate, genre, pricePerDay) VALUES
+  (1, 'Logan', '2017-12-05', 1, 200),
+  (2, 'Star Wars', '1990-01-07', 1, 150),
+  (3, 'Conjuring', '2015-06-04', 3, 175),
+  (4, 'Grudge', '2012-11-03', 3, 140),
+  (5, 'Mr Bean', '1994-05-12', 2, 200),
+  (6, 'Kung Fu Panda', '2009-12-21', 2, 160),
+  (7, 'Lion King', '1994-06-22', 4, 250),
+  (8, 'August Rush', '2009-08-14', 5, 160),
+  (9, 'School Of Rock', '1997-06-22', 5, 300),
+  (10, 'Transformers', '2014-06-12', 1, 275);
+
+SELECT * FROM movies;
+
+
+
+
+CREATE TABLE clients (
+  clientID INT AUTO_INCREMENT PRIMARY KEY,
+  firstName VARCHAR(20) NOT NULL,
+  lastName VARCHAR(20),
+  dob DATE,
+  phone VARCHAR(20) NOT NULL
+);
+
+DESCRIBE clients;
+
+INSERT INTO clients (clientID, firstName, lastName, dob, phone) VALUES
+  (1, 'Mark', 'Guiliana', '1989-09-12', '122-555-888'),
+  (2, 'Benny', 'Greb', '1985-04-04', '545-862-745'),
+  (3, 'Mark', 'Twain', '1990-07-22', '541-965-785'),
+  (4, 'Anna', 'Ivanovna', '1994-09-12', '654-785-022'),
+  (5, 'Kate', 'Bengio', '2000-12-01', '854-885-446'),
+  (6, 'Siraj', 'Rawal', '1991-04-18', '854-889-886'),
+  (7, 'James', 'Arthur', '1989-06-24', '654-852-962');
+
+SELECT * FROM clients;
+
+
+CREATE TABLE rents (
+  rentID INT PRIMARY KEY,
+  movie INT NOT NULL,
+  client INT NOT NULL,
+  startDate DATE NOT NULL,
+  endDate DATE NOT NULL,
+  FOREIGN KEY (movie) REFERENCES movies(movieID),
+  FOREIGN KEY (client) REFERENCES clients(clientID)
+);
+
+DESCRIBE rents;
+
+INSERT INTO rents (rentID, movie, client, startDate, endDate) VALUES
+  (1, 1, 3, '2017-02-12', '2017-02-17'),
+  (2, 2, 3, '2017-02-12', '2017-02-17'),
+  (3, 10, 1, '2017-02-19', '2017-02-22'),
+  (4, 4, 1, '2017-02-22', '2017-02-27'),
+  (5, 2, 2, '2017-02-26', '2017-03-01'),
+  (6, 3, 4, '2017-03-01', '2017-03-06'),
+  (7, 8, 5, '2017-03-12', '2017-03-15'),
+  (8, 4, 7, '2017-03-19', '2017-03-22'),
+  (9, 5, 6, '2017-03-21', '2017-03-25'),
+  (10, 9, 6, '2017-03-22', '2017-03-26');
+
+SELECT * FROM rents;
+
+
+
+
+QUESTIONS :-
+a. Show all the details of the clients whose names begin with "m":
+SELECT * FROM clients WHERE firstName LIKE 'M%';
+
+b. Show the lastName and dob of the clients whose last names end in "a" or "o":
+SELECT lastName, dob FROM clients WHERE lastName LIKE '%a' OR lastName LIKE '%o';
+
+
+c. Show all the details of the movies which were released in the 90s:
+SELECT * FROM movies WHERE releaseDate BETWEEN '1990-01-01' AND '1999-12-31';
+
+
+d. Show all the details of the clients who were born in September or April:
+SELECT * FROM clients WHERE MONTH(dob) IN (4, 9);
+
+
+e. Show all the details of the Action and Horror movies:
+SELECT * FROM movies WHERE genre IN (1, 3);
+
+
+f. Show the average pricePerDay of the movies:
+SELECT AVG(pricePerDay) AS averagePricePerDay FROM movies;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

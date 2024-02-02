@@ -1,0 +1,1964 @@
+Question 1:
+
+What is the main focus of Information Technology (IT)?
+A. Only software development
+B. Only computer hardware management
+C. Design, development, implementation, support, and management of computer hardware and software applications
+D. Support and management of operating systems
+Answer. C (Design, development, implementation, support, and management of computer hardware and software applications)
+Question 2:
+
+What are the two main components of a computer system?
+A. Hardware and software
+B. Peripherals and storage drives
+C. Operating system and programs
+D. Keyboards and monitors
+Answer. A (Hardware and software)
+Question 3:
+
+Which of the following is NOT a hardware component of a computer system?
+A. Storage drives
+B. Operating system
+C. Cables
+D. Case Fans
+Answer. B (Operating system)
+Question 4:
+
+What does the operating system instruct the computer to do?
+A. Identify, access, and process information
+B. Cool the internal components
+C. Prevent damage from static electricity
+D. Design the computer case
+Answer. A (Identify, access, and process information)
+Question 5:
+
+What is the purpose of a computer case in addition to supporting internal components?
+A. To provide enclosure for added protection
+B. To design the motherboard form factor
+C. To manage power supply units
+D. To develop software applications
+Answer. A (To provide enclosure for added protection)
+Question 6:
+
+Which term is used to describe the size and layout of a computer case?
+A. Layout factor
+B. Case factor
+C. Enclosure factor
+D. Form factor
+Answer. D (Form factor)
+
+Question 13:
+
+What is the primary function of a Power Supply Unit (PSU)?
+A. Convert direct-current (DC) power to alternating-current (AC) power
+B. Convert alternating-current (AC) power to direct-current (DC) power
+C. Manage motherboard components
+D. Design modular connectors
+Answer. B (Convert alternating-current (AC) power to direct-current (DC) power)
+Question 14:
+
+What is the purpose of a fixed Power Supply Unit (PSU)?
+A. Detachable cables for better cable management
+B. Convert DC power into AC power
+C. Provide enough power for installed components and potential additions
+D. Keyed connectors for easy insertion
+Answer. C (Provide enough power for installed components and potential additions)
+Question 15:
+
+What is a characteristic of cables in fixed Power Supply Units (PSUs)?
+A. Detachable cables
+B. Keyed connectors
+C. Convertible connectors
+D. Non-detachable cables
+Answer. D (Non-detachable cables)
+Question 16:
+
+What is the purpose of keyed connectors in Power Supply Units (PSUs)?
+A. Convert DC power into AC power
+B. Provide enough power for installed components
+C. Allow cables to be inserted in only one direction
+D. Manage motherboard components
+Answer. C (Allow cables to be inserted in only one direction)
+Question 17:
+
+What is a characteristic of Modular Power Supply Units (PSUs)?
+A. Detachable cables
+B. Fixed cables
+C. Non-keyed connectors
+D. Lower pricing than old counterparts
+Answer. A (Detachable cables)
+Question 18:
+
+What is the primary advantage of Modular Power Supply Units (PSUs) in terms of space?
+A. They have more connectors
+B. They are priced higher
+C. They are a good alternative for saving space inside the computer's System Unit
+D. They are non-keyed connectors
+Answer. C (They are a good alternative for saving space inside the computer's System Unit)
+Question 19:
+
+Which connector is used to power almost all motherboard components?
+A. P1 / 20 pin connector
+B. P1 / 24 pin connector
+C. Molex connector (4-pin)
+D. SATA power connector (15-Pin)
+Answer. B (P1 / 24 pin connector)
+Question 20:
+
+What is the purpose of the additional four pins in the P1 / 24 pin connector?
+A. Backup to balance load when more components are added
+B. Convert AC power into DC power
+C. Power PATA hard disks
+D. Power floppy disks
+Answer. A (Backup to balance load when more components are added)
+
+Question 21:
+
+What is the purpose of color coding in PSU connectors?
+A. To identify the manufacturer of the PSU
+B. To indicate the type of motherboard form factor
+C. To differentiate between detachable and non-detachable cables
+D. To identify the function of each connector
+Answer. D (To identify the function of each connector)
+Question 22:
+
+What is another name for the motherboard?
+A. Main board
+B. Backplane
+C. Printed Circuit Board (PCB)
+D. All of the above
+Answer. D (All of the above)
+Question 23:
+
+Which component is NOT typically found on a motherboard?
+A. Central Processing Unit (CPU) socket
+B. Graphics Card
+C. Heat sink/fan assembly
+D. BIOS chip
+Answer. B (Graphics Card)
+Question 24:
+
+How is a motherboard commonly referred to in desktop computers based on historical form factors?
+A. ATX
+B. Mini ITX
+C. IBM AT
+D. Micro ATX
+Answer. C (IBM AT)
+Question 25:
+
+What is the main function of the chipset on a motherboard?
+A. Control CPU temperature
+B. Control how the system interacts with the CPU and board
+C. Manage the power supply
+D. Control the speed of the RAM
+Answer. B (Control how the system interacts with the CPU and board)
+Question 26:
+
+What are the two main components of most chipsets on a motherboard?
+A. Northbridge and Southbridge
+B. Eastbridge and Westbridge
+C. Centralbridge and Peripheralbridge
+D. Mainbridge and Subbridge
+Answer. A (Northbridge and Southbridge)
+Question 27:
+
+What does the Northbridge typically control on a motherboard?
+A. Access to the RAM, video card, and CPU communication speed
+B. Communication with hard drives and I/O ports
+C. USB ports and sound card
+D. Communication with expansion slots
+Answer. A (Access to the RAM, video card, and CPU communication speed)
+Question 28:
+
+What function does the Southbridge generally perform on a motherboard?
+A. Control access to the RAM
+B. Allow CPU communication with hard drives and I/O ports
+C. Manage the CPU temperature
+D. Control the speed of expansion slots
+Answer. B (Allow CPU communication with hard drives and I/O ports)
+
+Question 29:
+
+What is the main objective of Information Technology (IT)?
+A. Designing computer cases
+B. Managing peripherals
+C. Support and management of computer hardware and software applications
+D. Providing enclosure for added protection
+Answer. C (Support and management of computer hardware and software applications)
+Question 30:
+
+What are the two main components of a computer system according to the lecture?
+A. Hardware and software
+B. Peripherals and storage drives
+C. Operating system and programs
+D. Keyboards and monitors
+Answer. A (Hardware and software)
+Question 31:
+
+What does the operating system instruct the computer to do?
+A. Cool the internal components
+B. Identify, access, and process information
+C. Prevent damage from static electricity
+D. Design the computer case
+Answer. B (Identify, access, and process information)
+Question 32:
+
+What is the primary function of a Power Supply Unit (PSU)?
+A. Convert direct-current (DC) power to alternating-current (AC) power
+B. Convert alternating-current (AC) power to direct-current (DC) power
+C. Manage motherboard components
+D. Design modular connectors
+Answer. B (Convert alternating-current (AC) power to direct-current (DC) power)
+Question 33:
+
+What is a characteristic of cables in fixed Power Supply Units (PSUs)?
+A. Detachable cables
+B. Keyed connectors
+C. Convertible connectors
+D. Non-detachable cables
+Answer. D (Non-detachable cables)
+Question 34:
+
+What is the purpose of keyed connectors in Power Supply Units (PSUs)?
+A. Convert DC power into AC power
+B. Provide enough power for installed components
+C. Allow cables to be inserted in only one direction
+D. Manage motherboard components
+Answer. C (Allow cables to be inserted in only one direction)
+Question 35:
+
+What is a characteristic of Modular Power Supply Units (PSUs)?
+A. Detachable cables
+B. Fixed cables
+C. Non-keyed connectors
+D. Lower pricing than old counterparts
+Answer. A (Detachable cables)
+Question 36:
+
+Which connector is used to power almost all motherboard components?
+A. P1 / 20 pin connector
+B. P1 / 24 pin connector
+C. Molex connector (4-pin)
+D. SATA power connector (15-Pin)
+Answer. B (P1 / 24 pin connector)
+Question 37:
+
+What is the primary advantage of Modular Power Supply Units (PSUs) in terms of space?
+A. They have more connectors
+B. They are priced higher
+C. They are a good alternative for saving space inside the computer's System Unit
+D. They are non-keyed connectors
+Answer. C (They are a good alternative for saving space inside the computer's System Unit)
+Question 38:
+
+What is another name for the motherboard?
+A. Main board
+B. Backplane
+C. Printed Circuit Board (PCB)
+D. All of the above
+Answer. D (All of the above)
+Question 39:
+
+How is a motherboard commonly referred to in desktop computers based on historical form factors?
+A. ATX
+B. Mini ITX
+C. IBM AT
+D. Micro ATX
+Answer. C (IBM AT)
+Question 40:
+
+What is the main function of the chipset on a motherboard?
+A. Control CPU temperature
+B. Control how the system interacts with the CPU and board
+C. Manage the power supply
+D. Control the speed of the RAM
+Answer. B (Control how the system interacts with the CPU and board)
+Question 41:
+
+What are the two main components of most chipsets on a motherboard?
+A. Northbridge and Southbridge
+B. Eastbridge and Westbridge
+C. Centralbridge and Peripheralbridge
+D. Mainbridge and Subbridge
+Answer. A (Northbridge and Southbridge)
+Question 42:
+
+What does the Northbridge typically control on a motherboard?
+A. Access to the RAM, video card, and CPU communication speed
+B. Communication with hard drives and I/O ports
+C. USB ports and sound card
+D. Communication with expansion slots
+Answer. A (Access to the RAM, video card, and CPU communication speed)
+Question 43:
+
+What function does the Southbridge generally perform on a motherboard?
+A. Control access to the RAM
+B. Allow CPU communication with hard drives and I/O ports
+C. Manage the CPU temperature
+D. Control the speed of expansion slots
+Answer. B (Allow CPU communication with hard drives and I/O ports)
+
+Question 44:
+
+What is the central processing unit (CPU) often referred to as?
+A. Mainframe
+B. Brain of the computer
+C. Power Supply Unit
+D. Motherboard
+Answer. B (Brain of the computer)
+Question 45:
+
+Where do most calculations take place in a computer?
+A. Power Supply Unit (PSU)
+B. Central Processing Unit (CPU)
+C. RAM
+D. Hard Disk
+Answer. B (Central Processing Unit (CPU))
+Question 46:
+
+In what form factors do CPUs come, and what is required for each style?
+A. LGA and PGA, each requiring a particular slot
+B. LGA and PGA, each requiring a particular socket on the motherboard
+C. Slot-based only, requiring a particular slot
+D. Pin Grid Array (PGA) only, requiring a particular socket
+Answer. B (LGA and PGA, each requiring a particular socket on the motherboard)
+Question 47:
+
+What architecture is most commonly used for CPU sockets and processors today?
+A. Slot-based architecture
+B. Zero Insertion Force (ZIF) architecture
+C. Pin Grid Array (PGA) architecture
+D. LGA architecture
+Answer. C (Pin Grid Array (PGA) architecture)
+Question 48:
+
+What does ZIF stand for in the context of CPU sockets?
+A. Zero Integration Force
+B. Zero Insertion Flexibility
+C. Zero Insertion Force
+D. Zero Inclusion Function
+Answer. C (Zero Insertion Force)
+Question 49:
+
+What is the role of a CPU socket in a motherboard?
+A. Store instructions for the CPU
+B. Execute a sequence of stored instructions
+C. Place a CPU in the motherboard
+D. Connect to the RAM slots
+Answer. C (Place a CPU in the motherboard)
+Question 50:
+
+Which mechanism is commonly associated with CPU sockets for LGA or PGA?
+A. Clip mechanism
+B. Twist mechanism
+C. Push mechanism
+D. Zero Insertion Force (ZIF) mechanism
+Answer. D (Zero Insertion Force (ZIF) mechanism)
+Question 51:
+
+What are two well-known manufacturers of CPUs?
+A. Dell and HP
+B. Intel and AMD
+C. ASUS and MSI
+D. NVIDIA and Radeon
+Answer. B (Intel and AMD)
+Question 52:
+
+Which of the following is a common Intel CPU socket?
+A. Socket AM3
+B. LGA 1150
+C. Socket FM2
+D. Socket FM2+
+Answer. B (LGA 1150)
+Question 53:
+
+Which AMD socket is used for Socket AM3+ CPUs?
+A. Socket AM2
+B. Socket AM3
+C. Socket AM3+
+D. Socket FM1
+Answer. C (Socket AM3+)
+Question 54:
+
+What is the primary function of the CPU on a motherboard?
+A. Control access to RAM
+B. Manage the power supply
+C. Execute a sequence of stored instructions
+D. Control expansion slots
+Answer. C (Execute a sequence of stored instructions)
+Question 55:
+
+What are the main components of a motherboard that are associated with the CPU?
+A. CPU Sockets, RAM slots, and Power connector ports
+B. Northbridge and Southbridge
+C. PCIe slots and SATA ports
+D. CMOS and I/O ports
+Answer. A (CPU Sockets, RAM slots, and Power connector ports)
+Question 56:
+
+What does the CPU execute?
+A. Stored instructions called a Program
+B. Expansion slots
+C. BIOS settings
+D. Memory allocation
+Answer. A (Stored instructions called a Program)
+Question 57:
+
+Which socket is associated with the CPU architecture LGA 775?
+A. LGA 1366
+B. LGA 775
+C. LGA 1155
+D. LGA 1150
+Answer. B (LGA 775)
+Question 58:
+
+What is the function of the chipset on a motherboard?
+A. Control CPU temperature
+B. Control how the system interacts with the CPU and board
+C. Manage the power supply
+D. Control the speed of the RAM
+Answer. B (Control how the system interacts with the CPU and board)
+
+Question 59:
+
+What is the purpose of cache memory during the execution of a program by the CPU?
+A. Store the program permanently
+B. Temporarily store instructions and data for the CPU
+C. Increase the clock speed of the CPU
+D. Manage the power supply to the CPU
+Answer. B (Temporarily store instructions and data for the CPU)
+Question 60:
+
+What does the x64 or 64-bit CPU architecture allow compared to x86 or 32-bit architecture?
+A. Registers to store values up to 4 billion
+B. Registers to store values up to 18 quintillion
+C. Registers to store values up to 2^32
+D. Registers to store values up to 2^64
+Answer. B (Registers to store values up to 18 quintillion)
+Question 61:
+
+What is the purpose of Hyper-Threading in CPUs?
+A. Increase the clock speed
+B. Enhance performance by executing multiple pieces of code simultaneously
+C. Manage the power supply
+D. Control the CPU temperature
+Answer. B (Enhance performance by executing multiple pieces of code simultaneously)
+Question 62:
+
+How is the power of a CPU measured?
+A. By the number of cores
+B. By the speed and the amount of data it can process
+C. By the size of the processor data bus (FSB)
+D. By the clock speed in MHz
+Answer. B (By the speed and the amount of data it can process)
+Question 63:
+
+What is the main risk associated with overclocking a CPU?
+A. Increased power consumption
+B. Damage to the CPU
+C. Decreased speed
+D. Improved performance
+Answer. B (Damage to the CPU)
+Question 64:
+
+What is CPU throttling?
+A. Increasing CPU speed
+B. Running the CPU at less than the rated speed to save power and reduce heat
+C. Enhancing CPU performance
+D. Adding more CPU cores
+Answer. B (Running the CPU at less than the rated speed to save power and reduce heat)
+Question 65:
+
+What does a CPU core represent in a processor?
+A. Heat generated by the CPU
+B. Execution blocks
+C. Cooling system
+D. Clock speed
+Answer. B (Execution blocks)
+Question 66:
+
+How does Hyper-Threading impact the performance of a CPU?
+A. Slows down the CPU
+B. Performs as though there are two CPUs
+C. Increases the number of cores
+D. Improves clock speed
+Answer. B (Performs as though there are two CPUs)
+Question 67:
+
+What is the primary function of case fans in a computer?
+A. Draw heat from the CPU
+B. Increase the air flow in the computer case to remove internal heat
+C. Cool the graphics-processing unit (GPU)
+D. Manage the power supply
+Answer. B (Increase the air flow in the computer case to remove internal heat)
+Question 68:
+
+What cooling system is used for computers with extremely fast CPUs and GPUs?
+A. Case fans
+B. CPU Fans
+C. Graphics Card Cooling System
+D. Water-cooling system
+Answer. D (Water-cooling system)
+Question 69:
+
+Which of the following is a type of primary memory directly accessed by the CPU?
+A. Cache memory
+B. Secondary memory
+C. Hard disk
+D. External memory
+Answer. A (Cache memory)
+Question 70:
+
+What is the function of ROM (Read Only Memory) in a computer?
+A. Store data temporarily
+B. Erase data by normal means
+C. Contain instructions for booting the computer and loading the operating system
+D. Volatile memory
+Answer. C (Contain instructions for booting the computer and loading the operating system)
+Question 71:
+
+What types of memory modules are commonly used today?
+A. ROM and RAM
+B. DDR3 and DDR4
+C. DIMM and SODIMM
+D. Cache memory and Hard disk
+Answer. C (DIMM and SODIMM)
+Question 72:
+
+What does DDR in DDR-SDRAM stand for?
+A. Dual Data Rate
+B. Dynamic Data Register
+C. Double Density RAM
+D. Digital Data Readout
+Answer. A (Dual Data Rate)
+Question 73:
+
+How are DDR-SDRAM memory modules classified based on pins?
+A. 184-pins
+B. 240-pins
+C. 288-pins
+D. All of the above
+Answer. D (All of the above)
+
+Question 74:
+
+Which type of memory is used as cache memory to store the most frequently used data and provides faster access to the processor?
+A. ROM
+B. DRAM
+C. SRAM
+D. DDR
+Answer. C (SRAM)
+Question 75:
+
+What are the types of cache memory mentioned?
+A. L1, L2, L3
+B. SRAM1, SRAM2, SRAM3
+C. DDR1, DDR2, DDR3
+D. ROM1, ROM2, ROM3
+Answer. A (L1, L2, L3)
+Question 76:
+
+What is the purpose of adapter cards in a computer?
+A. Increase the clock speed of the processor
+B. Increase the functionality of a computer by adding controllers for specific devices
+C. Enhance the cooling system of the CPU
+D. Manage the power supply to the motherboard
+Answer. B (Increase the functionality of a computer by adding controllers for specific devices)
+Question 77:
+
+Which of the following is an example of an adapter card?
+A. RAM
+B. Hard Drive
+C. NIC (Network Interface Card)
+D. CPU
+Answer. C (NIC - Network Interface Card)
+Question 78:
+
+What are the three types of expansion slots mentioned in the motherboard components?
+A. SATA, PATA, IDE
+B. USB, HDMI, VGA
+C. PCI, AGP, PCIe
+D. L1, L2, L3
+Answer. C (PCI, AGP, PCIe)
+Question 79:
+
+What is the PCI slot used for in a motherboard?
+A. Peripheral Component Interconnect
+B. Advanced Graphics Port
+C. Peripheral Component Interconnect Express
+D. Power Supply Unit
+Answer. A (Peripheral Component Interconnect)
+Question 80:
+
+What type of expansion slot is designed for video adapters?
+A. PCI
+B. AGP (Advanced Graphics Port)
+C. PCIe (Peripheral Component Interconnect Express)
+D. SATA
+Answer. B (AGP - Advanced Graphics Port)
+Question 81:
+
+What do storage drives read or write information to?
+A. RAM
+B. Hard Disk
+C. Optical storage media
+D. CPU
+Answer. C (Optical storage media)
+Question 82:
+
+What is the data capacity of a 3.5-inch floppy disk?
+A. 720 KB
+B. 1.44 MB
+C. 2 GB
+D. 500 MB
+Answer. B (1.44 MB)
+Question 83:
+
+What is the primary function of a hard drive in a computer?
+A. Temporary storage of data
+B. Cooling the CPU
+C. Permanent storage for data
+D. Increasing the clock speed of the CPU
+Answer. C (Permanent storage for data)
+Question 84:
+
+How is the storage capacity of a hard drive measured?
+A. In megabytes (MB)
+B. In gigabytes (GB)
+C. In kilobytes (KB)
+D. In terabytes (TB)
+Answer. B (In gigabytes (GB))
+
+Question 85:
+
+What is the purpose of a solid-state drive (SSD) in comparison to traditional hard disk drives?
+A. Faster data access and less energy consumption
+B. Slower data access and higher energy consumption
+C. Larger storage capacity
+D. Better compatibility with older systems
+Answer. A (Faster data access and less energy consumption)
+Question 86:
+
+Which component is responsible for managing the power supply and producing less heat in CPUs of laptops and mobile devices?
+A. CPU Fans
+B. Water-cooling system
+C. GPU
+D. CPU Throttling
+Answer. D (CPU Throttling)
+Question 87:
+
+What is the purpose of ROM (Read Only Memory) in a computer system?
+A. Store temporary data
+B. Provide permanent storage for data
+C. Increase CPU speed
+D. Enhance graphics processing
+Answer. B (Provide permanent storage for data)
+Question 88:
+
+What is the primary function of case fans in a computer system?
+A. Draw heat from the CPU
+B. Increase air flow in the computer case to remove internal heat
+C. Cool the GPU
+D. Manage the power supply to the motherboard
+Answer. B (Increase air flow in the computer case to remove internal heat)
+Question 89:
+
+What type of memory is directly accessed by the CPU and is volatile?
+A. ROM
+B. Hard Drive
+C. Cache Memory
+D. RAM
+Answer. D (RAM)
+Question 90:
+
+Which type of CPU architecture registers to store values of up to 18 quintillion?
+A. x86
+B. x64
+C. DDR
+D. SRAM
+Answer. B (x64)
+Question 91:
+
+What does DDR in DDR-SDRAM stand for?
+A. Double Data Rate
+B. Dynamic Data Register
+C. Dual Density RAM
+D. Digital Data Readout
+Answer. A (Double Data Rate)
+Question 92:
+
+Which expansion slot is designed for video adapters and has replaced AGP?
+A. PCI
+B. AGP (Advanced Graphics Port)
+C. PCIe (Peripheral Component Interconnect Express)
+D. SATA
+Answer. C (PCIe - Peripheral Component Interconnect Express)
+Question 93:
+
+What is the main risk associated with overclocking a CPU?
+A. Increased power consumption
+B. Damage to the CPU
+C. Decreased speed
+D. Improved performance
+Answer. B (Damage to the CPU)
+Question 94:
+
+What is the purpose of Hyper-Threading in CPUs?
+A. Increase the clock speed
+B. Enhance performance by executing multiple pieces of code simultaneously
+C. Manage the power supply
+D. Control the CPU temperature
+Answer. B (Enhance performance by executing multiple pieces of code simultaneously)
+Question 95:
+
+Which component is used to store data permanently in a computer system?
+A. RAM
+B. Cache Memory
+C. Hard Drive
+D. ROM
+Answer. C (Hard Drive)
+Question 96:
+
+What is the function of a water-cooling system in a computer?
+A. Increase air flow in the computer case
+B. Cool the CPU and GPU using water circulation
+C. Store data permanently
+D. Enhance the graphics processing unit
+Answer. B (Cool the CPU and GPU using water circulation)
+Question 97:
+
+What are the types of memory modules commonly used today?
+A. ROM and RAM
+B. DDR3 and DDR4
+C. DIMM and SODIMM
+D. Cache memory and Hard disk
+Answer. C (DIMM and SODIMM)
+Question 98:
+
+Which motherboard form factor was based on the IBM AT motherboard and is now considered obsolete?
+A. ATX
+B. Mini ITX
+C. Micro ATX
+D. AT
+Answer. D (AT - Advanced Technology)
+
+Question 99:
+
+What does RAID stand for in the context of storage drives?
+A. Random Access Independent Drives
+B. Redundant Array of Independent Disk
+C. Read-After-Internal-Disk
+D. Rapid Access Independent Data
+Answer. B (Redundant Array of Independent Disk)
+Question 100:
+
+What is the primary purpose of RAID?
+A. Increase the speed of hard drives
+B. Store data on a single hard disk for efficiency
+C. Provide redundancy by storing data across multiple hard disks
+D. Improve the access time of optical drives
+Answer. C (Provide redundancy by storing data across multiple hard disks)
+Question 101:
+
+What is striping in the context of RAID?
+A. A method used to write data across multiple drives
+B. A method of storing duplicate data to a second drive
+C. A type of optical drive
+D. A technique to increase the speed of hard drives
+Answer. A (A method used to write data across multiple drives)
+Question 102:
+
+What is mirroring in the context of RAID?
+A. A method used to write data across multiple drives
+B. A method of storing duplicate data to a second drive
+C. A type of optical drive
+D. A technique to increase the speed of hard drives
+Answer. B (A method of storing duplicate data to a second drive)
+Question 103:
+
+How does RAID 5 differ from RAID 0 and RAID 1?
+A. RAID 5 uses striping with parity
+B. RAID 5 uses mirroring
+C. RAID 5 has no redundancy
+D. RAID 5 does not use multiple drives
+Answer. A (RAID 5 uses striping with parity)
+Question 104:
+
+How many drives does RAID 5 require, and how many drive failures can it withstand without losing data or access?
+A. Requires at least 2 drives, withstands 1 drive failure
+B. Requires at least 3 drives, withstands 1 drive failure
+C. Requires at least 4 drives, withstands 2 drive failures
+D. Requires at least 3 drives, withstands 2 drive failures
+Answer. B (Requires at least 3 drives, withstands 1 drive failure)
+Question 105:
+
+What is the key feature of RAID 6 that distinguishes it from RAID 5?
+A. RAID 6 uses mirroring
+B. RAID 6 has double striping
+C. RAID 6 uses double parity
+D. RAID 6 has no redundancy
+Answer. C (RAID 6 uses double parity)
+Question 106:
+
+How many drives does RAID 6 require, and how many drive failures can it withstand simultaneously?
+A. Requires at least 3 drives, withstands 1 drive failure
+B. Requires at least 4 drives, withstands 2 drive failures
+C. Requires at least 2 drives, withstands 2 drive failures
+D. Requires at least 3 drives, withstands 3 drive failures
+Answer. B (Requires at least 4 drives, withstands 2 drive failures simultaneously)
+Question 107:
+
+What type of storage device uses lasers to read data on optical media?
+A. Hard Drive
+B. Solid State Drive
+C. Optical Drive
+D. USB Drive
+Answer. C (Optical Drive)
+Question 108:
+
+What are the types of optical media mentioned?
+A. HDD, SSD, USB
+B. CD, DVD, BD
+C. ROM, RAM, Cache
+D. RAID 0, RAID 1, RAID 5
+Answer. B (CD, DVD, BD)
+Question 109:
+
+What is the capacity of a standard DVD (Digital Versatile Disc)?
+A. 700 MB
+B. 1.44 MB
+C. 4.3 GB
+D. 8.5 GB
+Answer. D (8.5 GB)
+Question 110:
+
+Which type of optical media can be read and written multiple times?
+A. Pre-recorded (read-only)
+B. Recordable (write once)
+C. Re-recordable (read and write multiple times)
+D. Non-volatile
+Answer. C (Re-recordable - read and write multiple times)
+Question 111:
+
+What are the types of optical media mentioned for DVD?
+A. DVD-ROM, DVD+/-R, DVD+/-RW
+B. DDR3, DDR4, DDR5
+C. L1, L2, L3
+D. SATA, PATA, IDE
+Answer. A (DVD-ROM, DVD+/-R, DVD+/-RW)
+Question 112:
+
+What are the objectives of Lecture 03?
+A. Describe the concept of RAID and its type
+B. Explain the function of case fans
+C. Define CPU architecture
+D. Discuss the types of motherboard form factors
+Answer. A (Describe the concept of RAID and its type)
+Question 113:
+
+Which RAID level is known for its striping with double parity?
+A. RAID 0
+B. RAID 1
+C. RAID 5
+D. RAID 6
+Answer. D (RAID 6)
+
+Question 114:
+
+What is the primary purpose of an external flash drive?
+A. To increase the speed of the computer
+B. To connect peripheral devices
+C. To provide additional power to the computer
+D. To serve as a removable storage device
+Answer. D (To serve as a removable storage device)
+Question 115:
+
+What type of memory chips does an external flash drive use?
+A. Volatile memory chips
+B. Non-volatile memory chips
+C. Cache memory chips
+D. ROM memory chips
+Answer. B (Non-volatile memory chips)
+Question 116:
+
+What type of interface connects storage devices to the motherboard in IDE or PATA drive interface?
+A. USB
+B. SATA
+C. Parallel
+D. IDE or PATA
+Answer. D (IDE or PATA)
+Question 117:
+
+How many pins and wires are used in the 80-wire configuration of IDE or PATA drive interface?
+A. 20 pins with 20 wires
+B. 40 pins with 40 wires
+C. 60 pins with 60 wires
+D. 80 pins with 80 wires
+Answer. D (80 pins with 80 wires)
+Question 118:
+
+What is the distinctive feature of the SATA drive interface?
+A. Master and Slave configuration
+B. L-shaped interface
+C. 40 pins with 40 wires
+D. Parallel data cable
+Answer. B (L-shaped interface)
+Question 119:
+
+What are the speeds supported by SATA drive interface?
+A. 1.5Gbps, 3Gbps, 6Gbps, and 16Gbps
+B. 16MBps, 33MBps, 66MBps up to 133MBps
+C. 10Mbps, 100Mbps, 1000Mbps
+D. 3.2Gbps
+Answer. A (1.5Gbps, 3Gbps, 6Gbps, and 16Gbps)
+Question 120:
+
+What is the main difference between SATA and IDE or PATA drive interfaces regarding cable configuration?
+A. SATA has a Master and Slave configuration, while IDE or PATA does not.
+B. IDE or PATA has a Master and Slave configuration, while SATA does not.
+C. Both SATA and IDE or PATA have Master and Slave configurations.
+D. Neither SATA nor IDE or PATA have Master and Slave configurations.
+Answer. B (IDE or PATA has a Master and Slave configuration, while SATA does not.)
+Question 121:
+
+What type of port is used to connect a serial device such as a modem and older peripheral devices?
+A. USB Port
+B. Serial Port (DB-9)
+C. Modem Port (RJ11)
+D. FireWire Port
+Answer. B (Serial Port - DB-9)
+Question 122:
+
+What is the purpose of a Modem Port (RJ11)?
+A. Connects a modem to a telephone outlet
+B. Connects a printer to a computer
+C. Connects an external hard drive to a computer
+D. Connects a monitor to a computer
+Answer. A (Connects a modem to a telephone outlet)
+Question 123:
+
+What is the Universal Serial Bus (USB) primarily designed to replace?
+A. SATA and PATA connections
+B. Serial and parallel connections
+C. IDE and SCSI connections
+D. Ethernet and FireWire connections
+Answer. B (Serial and parallel connections)
+Question 124:
+
+What is FireWire (IEEE 1394)?
+A. A low-speed, non-swappable interface
+B. A high-speed, hot-swappable interface
+C. A type of optical drive
+D. A network port
+Answer. B (A high-speed, hot-swappable interface)
+Question 125:
+
+What type of cable is used for FireWire connections?
+A. SATA Data Cable
+B. USB Cable
+C. Parallel Cable
+D. FireWire Cable
+Answer. D (FireWire Cable)
+Question 126:
+
+What does an RJ-45 port primarily connect a computer to?
+A. A printer
+B. A telephone outlet
+C. A network
+D. A monitor
+Answer. C (A network)
+Question 127:
+
+What is the purpose of a Parallel Port (DB-25)?
+A. Connects an external hard drive to a computer
+B. Connects a printer
+C. Connects a modem to a telephone outlet
+D. Connects a monitor to a computer
+Answer. B (Connects a printer)
+
+Question 128:
+
+What type of port connects a keyboard or a mouse to a computer?
+A. USB Port
+B. PS/2 Port
+C. Audio Port
+D. Network Port
+Answer. B (PS/2 Port)
+Question 129:
+
+What does a video port primarily connect to a computer?
+A. An audio device
+B. A monitor cable
+C. A USB device
+D. A network
+Answer. B (A monitor cable)
+
+Question 130:
+
+What is the purpose of a keyboard, video, mouse (KVM) switch?
+A. To control more than one computer using a single keyboard, monitor, and mouse
+B. To switch between different input devices
+C. To connect multiple monitors to a computer
+D. To synchronize keyboard and mouse inputs
+Answer. A (To control more than one computer using a single keyboard, monitor, and mouse)
+Question 131:
+
+What does an output device do in a computer system?
+A. Enters data or instructions into a computer
+B. Presents information to the user from a computer
+C. Controls hardware components in a computer
+D. Stores data permanently in a computer
+Answer. B (Presents information to the user from a computer)
+Question 132:
+
+Which type of output device presents information in pictorial form?
+A. Monitor
+B. Printer
+C. Projector
+D. Scanner
+Answer. A (Monitor)
+Question 133:
+
+What are the three types of monitors mentioned?
+A. CRT, LED, Plasma
+B. LCD, Plasma, OLED
+C. CRT, LCD, LED
+D. OLED, Plasma, LED
+Answer. C (CRT, LCD, LED)
+Question 134:
+
+What is a Cathode-Ray Tube (CRT) monitor comprised of?
+A. Liquid crystals
+B. Electron gun and fluorescent screen
+C. Light-emitting diodes
+D. Vacuum tubes
+Answer. B (Electron gun and fluorescent screen)
+Question 135:
+
+What is a characteristic of Cathode-Ray Tube (CRT) monitors?
+A. High resolution and fast refresh rates
+B. Low resolution and slow refresh rates
+C. High resistance to X-ray radiation
+D. Low illumination levels
+Answer. B (Low resolution and slow refresh rates)
+Question 136:
+
+What does Liquid Crystal Display (LCD) use for backlighting?
+A. Fluorescent screen
+B. Cathode-ray tube
+C. Liquid crystals
+D. Reflectors or backlight
+Answer. D (Reflectors or backlight)
+Question 137:
+
+What is a characteristic of Liquid Crystal Display (LCD) monitors in low and high-temperature environments?
+A. High response time and loss of contrast
+B. Low response time and loss of contrast
+C. High resistance to temperature variations
+D. Low resistance to temperature variations
+Answer. A (High response time and loss of contrast)
+Question 138:
+
+What does Light Emitting Diode (LED) use for backlighting?
+A. Fluorescent screen
+B. Cathode-ray tube
+C. Liquid crystals
+D. Light-emitting diodes
+Answer. D (Light-emitting diodes)
+Question 139:
+
+What is the latest type of monitor in the market today?
+A. CRT
+B. LCD
+C. Plasma
+D. LED
+Answer. D (LED)
+Question 140:
+
+What does OLED stand for in the context of modern digital displays?
+A. Organic Light-Emitting Diode
+B. Original Light-Emitting Device
+C. Overhead Lighting for Electronic Devices
+D. Optimal Light-Emitting Display
+Answer. A (Organic Light-Emitting Diode)
+
+Question 141:
+
+What is RAID (Redundant Array of Independent Disks) used for?
+A. To connect external storage devices
+B. To store data across multiple hard disks for redundancy
+C. To enhance CPU performance
+D. To increase monitor resolution
+Answer. B (To store data across multiple hard disks for redundancy)
+Question 142:
+
+How does RAID appear to the operating system?
+A. As multiple logical disks
+B. As a single logical disk
+C. As a network connection
+D. As a collection of external devices
+Answer. B (As a single logical disk)
+Question 143:
+
+What does RAID 0 focus on?
+A. Mirroring data
+B. Striping data
+C. Redundancy with parity
+D. Double parity striping
+Answer. B (Striping data)
+Question 144:
+
+What is the primary feature of RAID 1?
+A. Striping data across multiple drives
+B. Mirroring duplicate data to a second drive
+C. Striping with parity
+D. Double parity striping
+Answer. B (Mirroring duplicate data to a second drive)
+Question 145:
+
+What is RAID 10?
+A. Striping data across multiple drives
+B. Mirroring duplicate data to a second drive
+C. A combination of striping and mirroring
+D. Striping with double parity
+Answer. C (A combination of striping and mirroring)
+Question 146:
+
+How many drives does RAID 5 require, and what does it offer in terms of fault tolerance?
+A. Requires at least 2 drives, withstands 1 drive failure
+B. Requires at least 3 drives, withstands 1 drive failure
+C. Requires at least 4 drives, withstands 2 drive failures
+D. Requires at least 5 drives, withstands 2 drive failures
+Answer. B (Requires at least 3 drives, withstands 1 drive failure)
+Question 147:
+
+What is the purpose of RAID 6?
+A. Striping data across multiple drives
+B. Mirroring duplicate data to a second drive
+C. Striping with double parity
+D. Mirroring with double parity
+Answer. C (Striping with double parity)
+Question 148:
+
+What is an external flash drive, and how does it connect to a computer?
+A. A permanent storage device connected internally
+B. A removable storage device connected to a USB port
+C. An optical storage device
+D. A magnetic storage device
+Answer. B (A removable storage device connected to a USB port)
+Question 149:
+
+What are the two types of drive interfaces mentioned?
+A. SATA and IDE
+B. USB and FireWire
+C. PCI and AGP
+D. Parallel and Serial
+Answer. A (SATA and IDE)
+Question 150:
+
+What is the distinctive feature of SATA drive interfaces?
+A. Hot pluggable
+B. Master and Slave configuration
+C. 40 pins with 40 wires
+D. 7 pin data cable, 15 pin power cable
+Answer. A (Hot pluggable)
+
+Question 151:
+
+What are the general safety guidelines mentioned to prevent workplace injuries?
+A. Follow electrical safety guidelines
+B. Prevent cuts, burns, electrical shock, and damage to eyesight
+C. Fight an out-of-control fire
+D. Exchange power cords with different types of devices
+Answer. B (Prevent cuts, burns, electrical shock, and damage to eyesight)
+Question 152:
+
+Why should experienced technicians handle power supplies and monitors containing very high voltage?
+A. To prevent electrical fires
+B. To avoid damage to eyesight
+C. To prevent injuries and fatalities
+D. To protect equipment from EMI
+Answer. C (To prevent injuries and fatalities)
+Question 153:
+
+What is the potential risk of exchanging power cords with different types of laptops or devices?
+A. Damage to the power cord only
+B. Damage to the device only
+C. No risk involved
+D. Damage to both the adapter and device
+Answer. D (Damage to both the adapter and device)
+Question 154:
+
+What are the fire safety guidelines mentioned in the lecture?
+A. Fight an out-of-control fire
+B. Get out of the building quickly
+C. Contact emergency services for help
+D. All of the above
+Answer. D (All of the above)
+Question 155:
+
+Why is it important to read the instructions on the fire extinguisher before using it?
+A. To know the weight of the extinguisher
+B. To understand the chemical composition
+C. To learn how to operate it correctly
+D. To determine the expiration date
+Answer. C (To learn how to operate it correctly)
+Question 156:
+
+What is Electrostatic Discharge (ESD) and how does it occur?
+A. A type of fire safety guideline
+B. The buildup of electric charge on a surface
+C. The intrusion of outside electromagnetic signals
+D. The interference caused by radio transmitters
+Answer. B (The buildup of electric charge on a surface)
+Question 157:
+
+When does Electrostatic Discharge (ESD) take place?
+A. When two objects with similar potentials come in contact
+B. When two objects with different potentials come in contact
+C. Only in harsh climates
+D. Only in poor quality electricity sources
+Answer. B (When two objects with different potentials come in contact)
+Question 158:
+
+What is Electromagnetic Interference (EMI), and where does it occur?
+A. The buildup of electric charge on a surface
+B. The intrusion of outside electromagnetic signals
+C. The interference caused by radio transmitters
+D. The interference caused by harsh climates
+Answer. B (The intrusion of outside electromagnetic signals)
+Question 159:
+
+How does Radio Frequency Interference (RFI) impact wireless networks?
+A. Enhances signal transmission
+B. Causes distortion in signals
+C. Prevents electromagnetic signals
+D. Boosts the speed of data transfer
+Answer. B (Causes distortion in signals)
+
+Question 159:
+
+Why is it crucial to follow fire safety guidelines in the workplace?
+
+A. To avoid interference with radio signals
+B. To protect lives, structures, and equipment
+C. To prevent cuts, burns, and damage to eyesight
+D. To increase the lifespan of computer components
+
+Answer. B (To protect lives, structures, and equipment)
+
+Question 160:
+
+What is the recommended action when facing a fire that is out of control according to fire safety guidelines?
+
+A. Fight the fire immediately
+B. Evacuate the building quickly
+C. Contact emergency services after attempting to control the fire
+D. Use any available method to contain the fire
+
+Answer. B (Evacuate the building quickly)
+
+Question 161:
+
+Why is it important to read the instructions on the fire extinguisher in your workplace?
+
+A. To enhance computer performance
+B. To improve data security
+C. To know how to properly use it in case of a fire
+D. To avoid electromagnetic interference
+
+Answer. C (To know how to properly use it in case of a fire)
+
+Question 162:
+
+What is the primary cause of damage to computer equipment, as mentioned in safety procedures?
+
+A. Power surges and spikes
+B. Electrostatic discharge (ESD), harsh climates, and poor quality sources of electricity
+C. Radio Frequency Interference (RFI)
+D. Improper software installation
+
+Answer. B (Electrostatic discharge (ESD), harsh climates, and poor quality sources of electricity)
+
+Question 163:
+
+How does Electrostatic Discharge (ESD) relate to computer equipment safety?
+
+A. It increases the expertise in power supply repair
+B. It causes damage to computer equipment through static electricity
+C. It prevents electrical fires in the workplace
+D. It improves data storage capacity
+
+Answer. B (It causes damage to computer equipment through static electricity)
+
+Question 164:
+
+In a network environment, what does Electromagnetic Interference (EMI) do?
+
+A. Causes damage to computer equipment through static electricity
+B. Distorts signals in the transmission media, making it difficult for receiving devices to interpret them
+C. Leads to interference with radio signals
+D. Prevents electrical fires in the workplace
+
+Answer. B (Distorts signals in the transmission media, making it difficult for receiving devices to interpret them)
+
+Question 165:
+
+What can happen to equipment if the environment temperature is too high, according to safety procedures?
+
+A. Increased chances of Electrostatic Discharge (ESD)
+B. Overheating of equipment
+C. Reduced voltage level of AC power
+D. Moisture damage to equipment
+
+Answer. B (Overheating of equipment)
+
+Question 166:
+
+Which AC power fluctuation type is characterized by a complete loss of AC power?
+
+A. Brownout
+B. Spike
+C. Blackout
+D. Power surge
+
+Answer. C (Blackout)
+
+Question 167:
+
+What is the primary function of a Surge Suppressor in protecting equipment?
+
+A. Reducing humidity in the environment
+B. Preventing overheating of equipment
+C. Protecting against damage from surges and spikes
+D. Enhancing data storage capacity
+
+Answer. C (Protecting against damage from surges and spikes)
+
+Question 168:
+
+How does an Uninterruptible Power Supply (UPS) contribute to equipment safety?
+
+A. Reducing environmental contamination
+B. Preventing overheating of equipment
+C. Protecting against brownouts and blackouts
+D. Enhancing computer performance
+
+Answer. C (Protecting against brownouts and blackouts)
+
+Question 169:
+
+What materials in computers and peripherals can be harmful to the environment, according to safety procedures?
+
+A. Rare earth metals
+B. Plastic and glass
+C. Silicon and aluminum
+D. Gold and silver
+
+Answer. A (Rare earth metals)
+
+Question 170:
+
+What information does a Material Safety and Data Sheet (MSDS) provide?
+
+A. Operating instructions for computer equipment
+B. Environmental impact of electronic waste
+C. Technical specifications for computer components
+D. Material identification, including hazardous ingredients, and first aid requirements
+
+Answer. D (Material identification, including hazardous ingredients, and first aid requirements)
+
+Question 171:
+
+Why is the proper disposal of batteries and CRTs important according to safety procedures?
+
+A. To recover precious metals
+B. To reduce electronic waste
+C. To increase equipment lifespan
+D. To improve data security
+
+Answer. B (To reduce electronic waste)
+
+Question 172:
+
+What is the purpose of an antistatic wrist strap in hardware repairs?
+
+A. To clean computer components during the repair process
+B. To prevent ESD damage to computer equipment
+C. To initialize disks and create partitions
+D. To optimize space on a hard drive
+
+Answer. B (To prevent ESD damage to computer equipment)
+
+Question 173:
+
+Why is it essential to use an antistatic mat during hardware repairs?
+
+A. To create and delete partitions on a hard drive
+B. To stand on or place hardware on to prevent static electricity buildup
+C. To protect against malicious attacks on the OS
+D. To scan the operating system critical files for corruption
+
+Answer. B (To stand on or place hardware on to prevent static electricity buildup)
+
+Question 174:
+
+What type of tools are most commonly used in the computer assembly process?
+
+A. Diagnostic tools
+B. Cleaning tools
+C. Hand tools
+D. Disk management tools
+
+Answer. C (Hand tools)
+
+Question 175:
+
+Which tool is used to test hardware components using a loopback adapter?
+
+A. Digital Multimeter
+B. Disk Cleanup
+C. Fdisk
+D. Format
+
+Answer. A (Digital Multimeter)
+
+Question 176:
+
+What is the primary purpose of Fdisk or Disk Management in disk management tools?
+
+A. To optimize space on a hard drive
+B. To create and delete partitions on a hard drive
+C. To scan the file system for errors
+D. To clear space on a hard drive by searching for files that can be safely deleted
+
+Answer. B (To create and delete partitions on a hard drive)
+
+Question 177:
+
+How does a firewall program contribute to computer protection?
+
+A. It scans the operating system critical files for corruption
+B. It ensures software firewall and antivirus programs are running
+C. It protects against ESD damage to computer equipment
+D. It clears space on a hard drive by searching for files that can be safely deleted
+
+Answer. B (It ensures software firewall and antivirus programs are running)
+
+Question 178:
+
+Why is it important for technicians to document all services and repairs?
+
+A. To optimize space on a hard drive
+B. To protect against malicious attacks on the OS
+C. To use documentation as reference material for future problems
+D. To scan the file system for errors
+
+Answer. C (To use documentation as reference material for future problems)
+
+Question 179:
+
+What is the purpose of a loopback adapter when using a digital multimeter for hardware testing?
+
+A. To optimize space on a hard drive
+B. To create and delete partitions on a hard drive
+C. To test network connectivity
+D. To scan the file system for errors
+
+Answer. C (To test network connectivity)
+
+Question 180:
+
+Why are appropriate cleaning tools essential during hardware cleaning?
+
+A. To optimize space on a hard drive
+B. To prevent damage to computer components during cleaning
+C. To scan the operating system critical files for corruption
+D. To create and delete partitions on a hard drive
+
+Answer. B (To prevent damage to computer components during cleaning)
+
+Question 181:
+
+Which tool is used to clear space on a hard drive by searching for files that can be safely deleted?
+
+A. Disk Cleanup
+B. Format
+C. Scandisk or chkdsk
+D. System File Checker (SFC)
+
+Answer. A (Disk Cleanup)
+
+Question 182:
+
+How does an antivirus program contribute to computer protection?
+
+A. It ensures software firewall and antivirus programs are running
+B. It protects against ESD damage to computer equipment
+C. It scans the file system for errors
+D. It protects against virus attacks
+
+Answer. D (It protects against virus attacks)
+
+Question 183:
+
+What is the primary function of a System File Checker (SFC) in protection software tools?
+
+A. To create and delete partitions on a hard drive
+B. To initialize disks and create partitions
+C. To scan the operating system critical files and replace any corrupted files
+D. To test network connectivity
+
+Answer. C (To scan the operating system critical files and replace any corrupted files)
+
+Question 184:
+
+How does a firewall program differ from an antivirus program in protecting against malicious attacks?
+
+A. A firewall program protects against virus attacks, while an antivirus program scans the file system for errors.
+B. A firewall program runs continuously to protect against unauthorized communications, while an antivirus program clears space on a hard drive.
+C. A firewall program ensures software firewall and antivirus programs are running, while an antivirus program protects against spyware.
+D. A firewall program protects against ESD damage, while an antivirus program protects against virus attacks.
+
+Answer. B (A firewall program runs continuously to protect against unauthorized communications, while an antivirus program clears space on a hard drive.)
+
+Question 185:
+
+What is the purpose of a Material Safety and Data Sheet (MSDS) in environmental safety procedures?
+
+A. To protect lives, structures, and equipment
+B. To create and delete partitions on a hard drive
+C. To summarize information about material identification, hazardous ingredients, and first aid requirements
+D. To test network connectivity
+
+Answer. C (To summarize information about material identification, hazardous ingredients, and first aid requirements)
+
+Question 186:
+
+Why is it important to use a surge suppressor in protecting computer equipment?
+
+A. To reduce environmental contamination
+B. To protect against brownouts and blackouts
+C. To avoid interference with radio signals
+D. To protect against damage from surges and spikes
+
+Answer. D (To protect against damage from surges and spikes)
+
+Question 187:
+
+What is the primary purpose of an Uninterruptible Power Supply (UPS) in hardware tools?
+
+A. To avoid interference with radio signals
+B. To protect against brownouts and blackouts
+C. To create and delete partitions on a hard drive
+D. To test network connectivity
+
+Answer. B (To protect against brownouts and blackouts)
+
+Question 188:
+
+Why should a technician use an antistatic wrist strap when working with computer equipment?
+
+A. To optimize space on a hard drive
+B. To protect against brownouts and blackouts
+C. To avoid interference with radio signals
+D. To prevent ESD damage to computer equipment
+
+Answer. D (To prevent ESD damage to computer equipment)
+
+Question 189:
+
+How does a Standby Power Supply (SPS) contribute to equipment safety?
+
+A. By providing a backup battery to supply power
+B. By reducing environmental contamination
+C. By preventing overheating of equipment
+D. By protecting against humidity fluctuations
+
+Answer. A (By providing a backup battery to supply power)
+
+Question 190:
+
+What is the purpose of using organizational tools in a technician's workflow?
+
+A. To optimize space on a hard drive
+B. To scan the operating system critical files for corruption
+C. To document all services and repairs for reference
+D. To create and delete partitions on a hard drive
+
+Answer. C (To document all services and repairs for reference)
+
+Question 191:
+
+How can a technician ensure proper environmental safety when dealing with computer components?
+
+A. By using an antistatic wrist strap
+B. By following fire safety guidelines
+C. By scanning the file system for errors
+D. By wearing appropriate safety gear
+
+Answer. B (By following fire safety guidelines)
+
+Question 192:
+
+Why is it crucial to follow proper tool implementation, such as using an antistatic mat and wrist strap?
+
+A. To test network connectivity
+B. To prevent damage to computer components during repairs
+C. To optimize space on a hard drive
+D. To create and delete partitions on a hard drive
+
+Answer. B (To prevent damage to computer components during repairs)
+
+
+Question 193:
+
+What is the primary goal of assembling a computer?
+
+A. To collect components from different manufacturers
+B. To follow correct techniques and procedures
+C. To create a complete computer system
+D. To learn about different brands of computer components
+
+Answer. C (To create a complete computer system)
+
+Question 194:
+
+Why is assembling a computer considered one of the most crucial jobs for a computer technician?
+
+A. To optimize space on a hard drive
+B. To collect components from different manufacturers
+C. To follow correct techniques and procedures
+D. To learn about different brands of computer components
+
+Answer. C (To follow correct techniques and procedures)
+
+Question 195:
+
+What are the recommended components for a basic assembled computer?
+
+A. Case, power supply unit, and motherboard of the mATX form factor, processor of at least Intel i5, and RAM of at least 16 GB.
+B. Case, power supply unit, and motherboard of any form factor, processor of at least Intel i3, and RAM of at least 4 GB.
+C. Case, power supply unit, and motherboard of the mATX form factor, processor of at least Intel i5, and RAM of at least 8 GB.
+D. Case, power supply unit, and motherboard of any form factor, processor of at least AMD Ryzen 7, and RAM of at least 32 GB.
+
+Answer. C (Case, power supply unit, and motherboard of the mATX form factor, processor of at least Intel i5, and RAM of at least 8 GB)
+
+Question 196:
+
+What is the purpose of an anti-static mat in the workspace during computer assembly?
+
+A. To optimize space on a hard drive
+B. To prevent ESD damage
+C. To install cables
+D. To learn about different brands of computer components
+
+Answer. B (To prevent ESD damage)
+
+Question 197:
+
+What are the steps involved in assembling a computer?
+
+A. Open the case, install the power supply unit, and boot the computer for the first time
+B. Install the CPU, heat sink, and the fan assembly, install RAM, and install cables
+C. Consult the case’s documentation, prepare the workspace, and install internal drives
+D. Install the motherboard, install adapter cards, and install the optical drive
+
+Answer. B (Install the CPU, heat sink, and the fan assembly, install RAM, and install cables)
+
+Question 198:
+
+How should you open most computer cases?
+
+A. From the top and the side
+B. From the side only
+C. From the top only
+D. Consult the case’s documentation to learn how to open a particular case
+
+Answer. B (From the side only)
+
+Question 199:
+
+What is the recommended size for the SSD in a basic assembled computer?
+
+A. At least 256GB
+B. At least 128GB
+C. At least 500GB
+D. At least 1TB
+
+Answer. B (At least 128GB)
+
+Question 200:
+
+Why is it important to have good ventilation in the workspace during computer assembly?
+
+A. To collect components from different manufacturers
+B. To avoid interference with radio signals
+C. To optimize space on a hard drive
+D. To maintain a comfortable room temperature and prevent overheating of components
+
+Answer. D (To maintain a comfortable room temperature and prevent overheating of components)
+
+Question 201:
+
+Why is it important to identify the correct side for installing the power supply unit?
+
+A. To optimize space on a hard drive
+B. To avoid interference with radio signals
+C. Fitting it in upside down might not be supported
+D. To collect components from different manufacturers
+
+Answer. C (Fitting it in upside down might not be supported)
+
+Question 202:
+
+What should you align when installing the CPU in the CPU socket?
+
+A. The power supply unit
+B. The heat sink and fan assembly
+C. The notches on the CPU and the CPU socket
+D. The internal drives and case fans
+
+Answer. C (The notches on the CPU and the CPU socket)
+
+Question 203:
+
+Why is thermal compound applied when installing the CPU and cooling system?
+
+A. To optimize space on a hard drive
+B. To prevent ESD damage
+C. To clean the CPU with isopropyl alcohol
+D. To help dissipate CPU heat
+
+Answer. D (To help dissipate CPU heat)
+
+Question 204:
+
+What should you consider when installing multiple internal drives?
+
+A. Leave some space between the drives
+B. Face the metal plate of the drives down
+C. Install them in the same bay for better heat dissipation
+D. Use the ZIF mechanism for alignment
+
+Answer. A (Leave some space between the drives)
+
+Question 205:
+
+Where are optical drives commonly installed in a computer case?
+
+A. In the same bay as the internal drives
+B. In the 4-pin Molex connector
+C. In the 5.25-inch (13.34 cm) drive bays
+D. In the PCIe expansion slots
+
+Answer. C (In the 5.25-inch (13.34 cm) drive bays)
+
+Question 206:
+
+What is required for many modern video cards due to their cooling systems?
+
+A. Two 8-pin power connectors
+B. Thermal compound
+C. Isopropyl alcohol
+D. ZIF mechanism for alignment
+
+Answer. A (Two 8-pin power connectors)
+
+Question 207:
+
+What is the purpose of the P1 24-pin connector and 4-pin CPU voltage regulator when connecting power to the motherboard?
+
+A. To optimize space on a hard drive
+B. To avoid interference with radio signals
+C. To ensure compatibility of power supply and motherboard connectors
+D. To help dissipate CPU heat
+
+Answer. C (To ensure compatibility of power supply and motherboard connectors)
+
+Question 208:
+
+What connectors are commonly used for hard drives, and what are their types?
+
+A. 4-pin Molex and 15-pin SATA
+B. 8-pin power and 4-pin CPU voltage regulator
+C. PCIe and AGP
+D. USB and PCI
+
+Answer. A (4-pin Molex and 15-pin SATA)
+
+Question 209:
+
+What type of connectors do fans commonly use for power?
+
+A. 8-pin power connectors
+B. 4-pin Molex connectors
+C. PCIe expansion slots
+D. ZIF mechanism connectors
+
+Answer. B (4-pin Molex connectors)
+
+Question 210:
+
+What should be done with front panel cables during the computer assembly process?
+
+A. Connect them to the power supply unit
+B. Leave them disconnected
+C. Connect them to the motherboard
+D. Connect them to the optical drive
+
+Answer. C (Connect them to the motherboard)
+
+Question 211:
+
+What is the final step in the computer assembly process according to the provided slide?
+
+A. Install internal cables
+B. Reassemble the case
+C. Install front panel cables
+D. Install the motherboard
+
+Answer. B (Reassemble the case)
+
+Question 212:
+
+Why is it recommended to clean the CPU with isopropyl alcohol before applying thermal compound?
+
+A. To optimize space on a hard drive
+B. To avoid interference with radio signals
+C. To prevent ESD damage
+D. To ensure proper heat dissipation
+
+Answer. C (To prevent ESD damage)
+
+Question 213:
+
+What is the purpose of the ZIF (Zero Insertion Force) mechanism when installing the CPU?
+
+A. To prevent ESD damage
+B. To avoid interference with radio signals
+C. To ensure proper heat dissipation
+D. To make it easier to align and install the CPU
+
+Answer. D (To make it easier to align and install the CPU)
+
+Question 214:
+
+Why should you plan for extra space when installing modern video cards?
+
+A. To optimize space on a hard drive
+B. To prevent damage to the video card
+C. Due to their cooling systems, they take more space inside the case
+D. To avoid interference with radio signals
+
+Answer. C (Due to their cooling systems, they take more space inside the case)
+
+Question 215:
+
+What should be aligned when connecting power to internal drives and case fans?
+
+A. The power supply unit
+B. The internal drives and case fans
+C. The motherboard
+D. The optical drive
+
+Answer. B (The internal drives and case fans)
+
+Question 216:
+
+Why is it important to leave some space between internal drives when installing multiple drives?
+
+A. To optimize space on a hard drive
+B. To avoid interference with radio signals
+C. To allow better heat dissipation
+D. To prevent ESD damage
+
+Answer. C (To allow better heat dissipation)
+
+Question 217:
+
+What are the common types of expansion slots used for adapter cards?
+
+A. PCIe and AGP
+B. USB and PCI
+C. 4-pin Molex and 15-pin SATA
+D. ZIF mechanism and 8-pin power connectors
+
+Answer. A (PCIe and AGP)
+
+Question 218:
+
+What does ESD stand for in the context of computer assembly?
+
+A. Electronic System Design
+B. Electrostatic Discharge
+C. Extra Space Demand
+D. External Storage Device
+
+Answer. B (Electrostatic Discharge)
+
+Question 219:
+
+What is the primary purpose of the 5.25-inch (13.34 cm) drive bays in a computer case?
+
+A. To install internal drives
+B. To optimize space on a hard drive
+C. To install optical drives
+D. To install adapter cards
+
+Answer. C (To install optical drives)
+
+Question 220:
+
+Why should you consult the case's documentation when opening it?
+
+A. To optimize space on a hard drive
+B. To avoid interference with radio signals
+C. To learn about different brands of computer components
+D. To learn how to open a particular case
+
+Answer. D (To learn how to open a particular case)
+
+Question 221:
+
+What is the primary function of the P1 24-pin connector when connecting power to the motherboard?
+
+A. To optimize space on a hard drive
+B. To avoid interference with radio signals
+C. To clean the CPU with isopropyl alcohol
+D. To relay power to the motherboard and components
+
+Answer. D (To relay power to the motherboard and components)
+
+Question 222:
+
+What is the purpose of the 4-pin CPU voltage regulator when connecting power to the motherboard?
+
+A. To optimize space on a hard drive
+B. To avoid interference with radio signals
+C. To help dissipate CPU heat
+D. To align the proper connectors and press them against the motherboard
+
+Answer. C (To help dissipate CPU heat)
+
+Question 223:
+
+How should the drive's metal plate face when installing internal drives for better heat dissipation?
+
+A. Down
+B. Up
+C. To the side
+D. It doesn't matter
+
+Answer. B (Up)
+
+Question 224:
+
+What connectors do hard drives commonly use for power?
+
+A. 8-pin power connectors
+B. 4-pin Molex and 15-pin SATA
+C. PCIe expansion slots
+D. ZIF mechanism connectors
+
+Answer. B (4-pin Molex and 15-pin SATA)

@@ -1,0 +1,50 @@
+mysql -h localhost -u root
+mysql -h localhost -u root
+mysql -h localhost -u root
+mysql -h localhost -u root
+mysql -h localhost -u root
+mysql -h localhost -u root 
+mysql -h localhost -u root
+mysql -h localhost -u root
+
+create database college;
+use college;
+create table Instructors (InstructorID int primary key, Fname varchar(50), Lname varchar (50), Designation varchar (50));
+create table Courses (CourseID int primary key, Name varchar (50), Description varchar (256), Instructor int, Price int, foreign key (Instructor) references Instructors (InstructorID));
+create table Students (StudentID int primary key, Fname varchar(50), Lname varchar(50), Address varchar(50));
+create table Enrollments (EnrollmentID int primary key, Course int, Student int, foreign key (Course) references Courses (CourseID), foreign key (Student) references Students (StudentID));
+
+#########1.SHOW TABLES...############
+
+######### processes to see ##########
+####################
+DESCRIBE Instructors;
+-- or
+SHOW COLUMNS FROM Instructors;
+#############################
+
+
+###################
+DESCRIBE Courses;
+-- or
+SHOW COLUMNS FROM Courses;
+##########################
+
+
+##################
+DESCRIBE Students;
+-- or
+SHOW COLUMNS FROM Students;
+###########################
+
+
+####################
+DESCRIBE Enrollments;
+-- or
+SHOW COLUMNS FROM Enrollments;
+##############################
+
+
+##########..additiona.....#########
+
+SHOW DATABASES;

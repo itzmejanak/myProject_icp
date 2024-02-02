@@ -1,0 +1,113 @@
+mysql -h localhost -u root
+
+SHOW DATABASES;
+
+CREATE DATABASE my_store3;
+
+USE my_store3;
+
+CREATE TABLE suppliers (name VARCHAR(255) PRIMARY KEY, phone VARCHAR(255) NOT NULL UNIQUE);
+
+DESCRIBE suppliers;
+
+INSERT INTO suppliers VALUES
+       ("Google", "865-898-644"),
+       ("Microsoft", "661-182-856"),
+       ("Sony", "456-458-234");
+
+SELECT * FROM suppliers;
+
+CREATE TABLE customers (customer_id INT PRIMARY KEY AUTO_INCREMENT, name varchar(255) NOT NULL, address VARCHAR(255) NOT NULL);
+
+DESCRIBE customers;
+
+INSERT INTO customers VALUES
+       ("JOHN SMITH", "KATHMANU"),
+       ("ALLAH TURING", "POKHARA"),
+       ("SARAH JONES", "BANEPA"),                >>>>HERE be careful
+       ("JEFF HINTON", "LALITPUR"),
+       ("ASHLEY STONE", "CHITWAN"),
+       ("DONALD DUCK", "CHITWAN");
+
+PROBLEMS:-
+
+INSERT INTO customers (name, address) VALUES
+    ("JOHN SMITH", "KATHMANU"),
+    ("ALLAH TURING", "POKHARA"),
+    ("SARAH JONES", "BANEPA"),
+    ("JEFF HINTON", "LALITPUR"),
+    ("ASHLEY STONE", "CHITWAN"),
+    ("DONALD DUCK", "CHITWAN");
+
+
+SELECT * FROM customers;
+
+CREATE TABLE items (name VARCHAR(255) PRIMARY KEY NOT NULL UNIQUE, supplier VARCHAR(255) , price INT NOT NULL, FOREIGN KEY (supplier) REFERENCES suppliers(name));
+
+
+alter table items add FOREIGN KEY (supplier) REFERENCES suppliers(name);
+
+
+DESCRIBE items;
+
+INSERT INTO items VALUES
+       ("NEXUS_5X", "Google", 200),
+       ("NEXUS_6P", "Google", 300),
+       ("PS2", "Sony", 400),
+       ("XBOX-360", "Microsoft", 250);
+
+SELECT * FROM items;
+
+
+CREATE TABLE orders (order_id INT PRIMARY KEY AUTO_INCREMENT, customer_id INT REFERENCES customers(customer_id), item VARCHAR(255) REFERENCES items(name), orderDate DATE NOT NULL);
+
+ alter table orders add FOREIGN KEY (customer_id) REFERENCES customers(customer_id);
+ alter table orders add FOREIGN KEY (item) REFERENCES items(name);
+
+DESCRIBE orders;
+
+INSERT INTO orders (customer_id, item, orderDate) VALUES
+       (1, "XBOX_360", '2015-09-03'),
+       (1, "NEXUS_5X", '2015-09-03'),
+       (2, "NEXUS_6P", '2015-10-05'),
+       (3, "PS2", '2016-11-22'),
+       (4, "PS2", '2016-12-01'),
+       (4, "NEXUS_5X", '2016-12-02');
+
+SELECT * FROM orders;
+
+
+
+iii. SQL Queries:
+a. Show the name and address of the customers who are from Kathmandu or Lalitpur.
+SELECT name, address FROM customers WHERE address IN ('Kathmandu', 'Lalitpur');
+
+
+b. Show the details of the items whose price range is from 200 to 300.
+SELECT * FROM items WHERE price BETWEEN 200 AND 300;
+
+
+c. Show the details of the orders made by customers having client IDs 1, 2, or 4.
+SELECT * FROM orders WHERE customer_id IN (1, 2, 4);
+
+d. Show the details of the orders from 2015.
+SELECT * FROM orders WHERE EXTRACT(YEAR FROM OrderDate) = 2015;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

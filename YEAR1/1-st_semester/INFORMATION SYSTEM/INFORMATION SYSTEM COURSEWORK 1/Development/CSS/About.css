@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* Include padding and border 
+in the element's 
+total width and height */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #050710;
+}
+
+/* Top Navbar styles goes here*/
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+
+#navUp {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: sticky;
+  width: 100%;
+  background-color: #080606;
+  height: 25px;
+  color: white;
+  padding: 20px 50px;
+}
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-left: 290px;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0);
+  border-radius: 10px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+
+.searchInput::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.limitedOffer {
+  padding-left: 150px;
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* Top Navbar styles ends here*/
+#last{
+  padding-left: 30px;
+}
+
+/* side navbar goes here */
+nav {
+  z-index: 999;
+  position: fixed;
+  height: 350px;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #05060bb4;
+  padding: 20px 10px;
+  border-radius: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  height: 100%;
+}
+
+nav ul li {
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.2s all ease;
+}
+
+nav ul li a img{
+  width: 20px;
+  transition: 0.2s all ease;
+}
+
+nav ul li a span {
+  position: absolute;
+  background-color: #15202ec8;
+  padding: 2px 15px;
+  border-radius: 30px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s all ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #27f131;
+}
+
+nav ul li a.active span,
+nav ul li a:hover span {
+  opacity: 1;
+  visibility: visible;
+  margin-left: 50px;
+}
+
+nav.active ul li a span {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  margin-left: 15px;
+}
+
+nav.active ul li a:hover span {
+  margin-left: 5px;
+}
+
+/* Side navbar end here */
+
+
+  
+/* General styles */
+
+#team{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container .box {
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: .8;
+  border: 3px solid #fff;
+}
+
+/* Card styles */
+.card {
+  flex: 0 0 350px;
+  height: 350px;
+  background: transparent;
+  box-shadow:
+    5px 5px 10px rgba(0, 0, 0, 0.1),
+    -5px -5px 10px rgba(192, 182, 37, 0.112);
+  transition: .5s ease-in-out;
+  margin: 10px;
+  border-radius: 30%;
+  position: relative;
+}
+
+.center-card {
+  flex: 0 0 350px;
+  height: 350px;
+  background: transparent;
+  box-shadow:
+    5px 5px 10px rgba(0, 0, 0, 0.1),
+    -5px -5px 10px rgba(192, 182, 37, 0.112);
+  transition: .5s ease-in-out;
+  margin: 10px auto;
+  position: relative;
+}
+
+.card:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.card .card-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.card-content .name-profession {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  color: #626463;
+}
+
+.name-profession .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-content button {
+  position: relative;
+  padding: 8px 35px;
+  background: var(--clr);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  opacity: .75;
+  margin-top: 30px;
+}
+
+.card-content button::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55%;
+  height: 5px;
+  background: rgba(255, 255, 255, .5);
+  border-radius: 5px;
+}

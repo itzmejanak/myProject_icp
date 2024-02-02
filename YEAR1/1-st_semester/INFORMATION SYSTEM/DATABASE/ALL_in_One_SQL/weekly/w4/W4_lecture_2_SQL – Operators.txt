@@ -1,0 +1,96 @@
+CREATE TABLE suppliers (name varchar(255) primary key, phone varchar(255));
+
+INSERT INTO suppliers VALUES ("google", "865-898-644"),("microsoft","674-766-874"), ("sony","679-877-457");
+
+CREATE TABLE customers (customer_id int primary key AUTO_INCREMENT, name varchar(255), address varchar(255) NOT NUll);
+
+
+INSERT INTO customers (name, address) VALUES
+  ('john smith', 'ktm'),
+  ('Allah Turing', 'pokhara'),
+  ('sarah jones', 'banepa'),
+  ('jeff hinton', 'lalitpur'),
+  ('ashley stone', 'chitwan'),
+  ('donald duck', 'chitwan');
+
+
+ CREATE TABLE item (  name VARCHAR(255) PRIMARY KEY,  supplier VARCHAR(255) NOT NULL,  price INT UNIQUE NOT NULL);
+
+
+INSERT INTO item VALUES
+ ("nexus-5x","google",200),
+ ("Nexus-6p","google",300),
+ ("ps2","sony",350),
+ ("Xbox-360","microsoft",250);
+
+
+
+CREATE TABLE orders (
+  order_id INT PRIMARY KEY AUTO_INCREMENT,
+  customer_id INT,
+  item varchar(255)
+);
+
+INSERT INTO orders (order_id, customer_id, item) VALUES
+  (1, 1, 'x-box-360'),
+  (2, 1, 'nexus-5x'),
+  (3, 2, 'nexus-6p'),
+  (4, 3, 'ps2'),
+  (5, 4, 'ps2'),
+  (6, 4, 'Nexus-5x');
+
+
+
+BETWEEN:-
+
+SELECT * FROM items WHERE price BETWEEN 150 AND 250;
+SELECT * FROM customers WHERE address BETWEEN "banepa" AND "ktm";
+
+
+
+IN:-
+
+SELECT * FROM orders WHERE price customer_id in (1,2,3);
+
+
+LIKE:-
+SELECT * FROM customers WHERE address like "k%";
+SELECT * FROM customers WHERE address like "%u";
+SELECT * FROM customers WHERE address like "%it%";
+
+
+Aggregate functions:-
+SELECT SUM(price) FROM items;
+SELECT MAX(price) FROM items;
+
+
+Arithmetic operations:-
+SELECT 2 + 2;
+SELECT 2 - 2;
+
+AS can be used to give a temporary column name = DIVESION
+SELECT 9 / 3 AS DIVESION;
+SELECT 10 % 3 AS remainder;
+
+
+A simple query to calculate the discounted amount of all the items. 
+
+SELECT name , price , price  - (price*0.10) AS new_price FROM items;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

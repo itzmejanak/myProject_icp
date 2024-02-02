@@ -1,0 +1,580 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+/* Include padding and border 
+in the element's 
+total width and height */
+
+/* Body styles */
+body {
+  width: 100%;
+  background-color: #fbfbfb;
+}
+
+/* Main container styles */
+#mainDiv {
+  background-color: #05070a;
+  overflow: hidden;
+}
+
+/* Top Navbar styles goes here*/
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+
+#navUp {
+  position: sticky;
+  width: 100%;
+  background-color: #080606;
+  height: 25px;
+  color: white;
+  padding: 20px 50px;
+}
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-left: 290px;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0);
+  border-radius: 10px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+
+.searchInput::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.limitedOffer {
+  padding-left: 150px;
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* Top Navbar styles ends here*/
+
+/* Side Navbar styles goes here */
+nav {
+  z-index: 999;
+  position: fixed;
+  height: 350px;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #05060bb4;
+  padding: 20px 10px;
+  border-radius: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  height: 100%;
+}
+
+nav ul li {
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.2s all ease;
+}
+
+nav ul li a img{
+  width: 20px;
+  transition: 0.2s all ease;
+}
+
+nav ul li a span {
+  position: absolute;
+  background-color: #15202ec8;
+  padding: 2px 15px;
+  border-radius: 30px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s all ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #27f131;
+}
+
+nav ul li a.active span,
+nav ul li a:hover span {
+  opacity: 1;
+  visibility: visible;
+  margin-left: 50px;
+}
+
+nav.active ul li a span {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  margin-left: 15px;
+}
+
+nav.active ul li a:hover span {
+  margin-left: 5px;
+}
+/* Side Navbar styles ends here */
+
+
+/* Button styles ends here */
+.btn {
+  background: #3498db;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid #0ee820;
+  color: #3d04b8;
+}
+/* Button styles ends here */
+
+
+
+/* Main page styles */
+#main-page {
+  overflow: hidden;
+  background-color: rgb(10, 12, 11);
+}
+
+/* Content section styles goes here*/
+.content {
+  height: 100vh;
+  width: 90%;
+  padding: 0 5%;
+  display: flex;
+  background-image: url(../Resources/Home\ img/final_h0me.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.content .left {
+  transition: 2s ease;
+  opacity: 1;
+  width: 50%;
+}
+
+.content .left:hover {
+  transition: 2s ease-out;
+  opacity: 1;
+}
+
+.left h1 {
+  padding: 50px;
+  font-size: 40px;
+}
+
+.left p {
+  font-size: 16px;
+  color: #000000;
+  padding-block: 20px;
+}
+
+#more {
+  display: none;
+}
+
+#button {
+  visibility: visible;
+  margin-top: 120px;
+  padding-top: 70px;
+}
+
+button {
+  opacity: 1;
+  border: none;
+  font-size: 18px;
+}
+
+.right {
+  width: 50%;
+}
+
+.right img {
+  padding-bottom: 10px;
+  margin-left: 50px;
+  width: 80%;
+  height: 100%;
+}
+/* Content section styles ends here*/
+
+
+/* Slider styles goes here*/
+.slider {
+  background: url("./gif/patten1_3.gif");
+  filter: blur(0.4);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+.sliderWrapper {
+  display: flex;
+  width: 500%;
+  animation: slideAnimation 80s linear 2s infinite;
+  overflow: hidden;
+}
+
+@keyframes slideAnimation {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.sliderItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #151a1800;
+  color: #fff;
+  font-size: 24px;
+}
+
+.sliderBg {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.sliderImg {
+  width: 40%;
+  z-index: 1;
+}
+
+.sliderTitle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.sliderPrice {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  border: 1px solid gray;
+  z-index: 1;
+}
+
+.buyButton {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  border: 1px solid gray;
+  background-color: black;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.buyButton:hover {
+  background-color: white;
+  color: black;
+}
+/* Slider styles ends here*/
+
+
+/* Bottom Navbar styles */
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItem {
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgray;
+  font-weight: 400;
+}
+
+/* Features section styles */
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.featureIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.featureIcon:hover {
+  height: 60px;
+  cursor: pointer;
+}
+
+.featureTitle {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.featureDesc {
+  color: rgb(185, 184, 184);
+  width: 50%;
+  height: 100px;
+}
+/* Features section styles ends */
+
+
+/* Product section styles */
+.product {
+  height: 250%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 6%, rgba(13, 26, 15, 0.308) 30%, rgba(10, 25, 37, 0.523) 44%, rgba(19, 46, 142, 0.235) 68%, rgba(0,0,0,1) 88%, rgba(0,0,0,1) 90%, rgba(1,14,12,1) 100%);  
+  position: relative;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
+#produtM {
+  height: 100%;
+  padding-bottom: 90px;
+  padding-top: 70px;
+  margin-left: 70px;
+}
+
+/* Product Image styles */
+.productImg {
+  width: 45%;
+}
+
+/* Product Details container styles */
+.productDetails {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding: 50px;
+}
+
+/* Product Title styles */
+.productTitle {
+  color: #fbfbfb;
+  font-size: 75px;
+  font-weight: 900;
+}
+
+/* Product Description styles */
+.productDesc {
+  font-style: 24px;
+  color: rgb(231, 226, 226);
+}
+
+/* Colors and Sizes container styles */
+.colors,
+.sizes {
+  /* background-color: #3498db; */
+  color: #fbfbfb;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Color styles */
+.color {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: rgb(171, 11, 11);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.color:last-child {
+  background-color: darkblue;
+}
+
+/* Size styles */
+.size {
+  padding: 5px 20px;
+  border: 1px solid rgb(7, 55, 232);
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Product Button styles */
+.productButton {
+  border-radius: 10px;
+  float: right;
+  padding: 10px 20px;
+  background-color: rgb(215, 44, 44);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.productButton:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+/* Gallery container styles */
+.gallery {
+  background-color: #081015;
+  padding: 50px;
+  display: flex;
+}
+
+/* Individual Gallery Item styles */
+.galleryItem {
+  color: rgb(185, 184, 184);
+  flex: 1;
+  padding: 50px;
+}
+
+/* Gallery Image styles */
+.galleryImg {
+  width: 100%;
+}
+
+/* New Season container styles */
+.newSeason {
+  padding: 0 10px;
+  display: flex;
+}
+
+/* New Season Title styles */
+.nsTitle {
+  font-size: 40px;
+}
+
+/* New Season Button styles */
+.nsButton {
+  padding: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Footer container styles */
+footer {
+  display: flex;
+}
+
+/* Footer Left container styles */
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+/* Footer Menu Title styles */
+.fMenuTitle {
+  font-size: 16px;
+}
+
+/* Footer List styles */
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+/* Footer List Item styles */
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+/* Footer Right container styles */
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Footer Input styles */
+.fInput {
+  padding: 5px;
+}
+
+/* Footer Button styles */
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+/* Footer Icons container styles */
+.fIcons {
+  display: flex;
+}
+
+/* Individual Footer Icon styles */
+.fIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Copyright styles */
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+}
+

@@ -1,0 +1,251 @@
+print vs println and alternative of println = \n 
+
+also we can use botn println and \n for magic means we can generate enpty space by this
+
+we can also use the empty space at the first of our string by \t
+
+escape the double quotes insite the string and show the use of double quotes into result ("\"I LOVE YOU \""):-
+
+if we need to display back \ in the string we can use double back \\ between the double qoutes ("\\HELLO");
+
+
+
+VARIABLE ;-
+place holder 
+
+references data types
+# String   varies   
+   (note: references data types start with capital letter)
+
+primitives data types
+# int      4 bytes
+# boolen   1 bytes
+# double   8 bytes
+# char     2 bytes
+float    4 bytes
+byte     1 bytes
+short    2 bytes
+long     8 bytes
+     (note: primitives data types start with capital letter)
+
+
+
+variable declaration and assignment:-
+or 
+direct initialization;
+
+when we declare the long data types the value also contains somethins with digit at last as (L)
+and also
+
+when we declare the float data types the value also contains somethins with digit at last as (F)
+in case of double we dont need (d) only write value.
+
+Char only contains only one letter eg :- ("A")
+
+
+
+section :- 3
+HOW WE CAN SWAP TWO VARIABLES USING JAVA ?
+
+just think x and y as a 2 water glass to swap the variables we need the help of anouther variable lest say temp;
+
+now we can do that;
+
+lets put x into temp 
+eg;- temp = x
+
+now bring y into x because x is empty now so we call fill it there
+eg:- x = y 
+
+now we know that y is empty so we can bring x fiiled temp into y
+ eg y = temp
+
+
+
+section :-4
+
+HOW WE CAN ACCEPT USER INPUT USING JAVA ?
+
+we can use java utility package library class name Scanner so always when we want to use java utility package we have to import them:-
+by example :-
+import java.util.Scanner;
+
+and then we can do so:-
+
+Scanner input = new Scanner ("System.in")
+and the we can use the prompt for what we want to take from the user eg:-
+system.out.println("what is your name ?")
+
+now we can assign the input for display:- by
+String name = input.nextLine();
+
+   (note: this assiging process is for String so we take string     here)
+
+lets say for number just we have to change that 
+int age = input.nextInt();
+
+
+problems:-
+
+when we take input like this:-
+
+String name = input.nextLine();
+int age = input.nextInt();
+String food = input.nextLine();
+
+we can only able to see the result of name and age but we cannot see the result of food because of nextInt();
+
+to fix this we have to add somethink like this:-
+          input.nextLine();
+after assiging the age. to print the input of nextline.
+
+
+
+
+section :- 5
+HOW THE EXPRESSION WORKS IN JAVA ?
+
+expressio is the combination of operand & operators
+eg;- 
+
+operands = values, variable, numbers, quantity
+operators = +, - , * , / , and %
+
+i can check all of this by this example :-
+
+int friends = 10;
+friends = friends +, - , * , / , and % by 3
+or
+friends +, - , * , / , and % = by 3
+
+
+by printing:-
+
+system.out.println(friends);
+
+
+short hand method for + and - :--
+
+int friends = 10;
+friends = friends++;
+or
+friends--;
+
+
+problems:-
+
+when we divide the int number 10 by 3 we only can see the result that is 3 this is because we take the data types int to fix this :-
+
+to cast the the actul result we have to use the double data types here is an example :-
+
+friends = friends / 3;
+
+we have to define the result of new friends value is must be cast into double to do that :-
+
+friends = (double)friends / 3; 
+
+
+
+
+section :- 6
+HOW WE CAN MAKE THE VERY BASIC GUI APPLICTION BY JAVA ?
+
+first import javax swing class name JOptionPane;
+
+import javax.swing.JOptionPane;
+         (note about this JOptionPane: it  is the dialogue box)
+
+additionally we can say that JOptionPane is the upadted version of Scanner to take input of user 😂;
+
+to use this :-
+
+String name = JOptionPane.showInputDialogue("What is your name ?");
+
+and print it into dialog message:-
+
+JOptionPane.show.MessageDialog(null, "Hello " + name);
+
+
+
+problems for int :-
+
+int age = JOptionPane.showInputDialogue("What is your age?");
+
+and print it into dialog message:-
+
+JOptionPane.show.MessageDialog(null, "Hello " + age);
+
+
+to fix :-
+
+we have to verify that the input should be into integer or we can say that number why we do this because the JOptionPane is desigh like that firstly it only take an string so we have to tell him to take an int values.
+
+to do so just do before:-
+int age = Integer.parseInt(.....)
+        JOptionPane.showInputDialogue("What is your age?");
+
+and we have to put the dialogue message into the parseInt parenthesis (.....):-
+ eg:-
+int age = Integer.parseInt(JOptionPane.showInputDialogue("What is your age?"));
+
+and print it into dialog message:-
+
+JOptionPane.show.MessageDialog(null, "Hello " + age);
+
+problems for double :-
+
+just change:-
+
+double height = Double.parseDouble(JOptionPane.showInputDialogue("What is your height?"));
+
+and print it into dialog message:-
+
+JOptionPane.show.MessageDialog(null, "Hello " + height);
+
+
+section :- 7
+HOW TO USE MATH CLASS OF JAVA ?
+
+FEW USEFUL METHODS OF MATH CLASS :-
+Math.min   = minimum value by comparing 2 values 
+Math.abs   = absolulate value to look the single value
+Math.sqrt  = square value for 1 value 
+Math.round = roundauto value for single value 
+math.ceil  = roundup value for single value
+math.floor  = rounddown value for single value
+
+process 
+
+1. variavle inistalization x and y resp.by double
+
+2. again inistilize the x an y into z by double
+eg; -
+double z = Math.min(x, y);
+
+3.
+printing
+system.out.println(z);
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

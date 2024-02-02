@@ -1,0 +1,50 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>...W4..LECTURE...<<<<<<<<<<<<<<<<<<<<<<<<<
+                        ......Q-1..of..w4.....
+
+-- Connect to MySQL and show databases
+mysql -h localhost -u root
+
+-- Create a database named 'college'
+CREATE DATABASE college;
+
+-- Use the 'college' database
+USE college;
+
+-- Create a table 'groups'
+CREATE TABLE groups (
+  group_id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255) UNIQUE,
+  profile VARCHAR(255) DEFAULT 'it'
+);
+
+-- Insert into groups table
+INSERT INTO groups (name, profile) VALUES
+  ('c1', 'computing'),
+  ('c2', 'computing'),
+  ('c3', 'networking'),
+  ('c4', 'networking'),
+  ('c5', 'it'),
+  ('c6', 'multimedia');
+
+
+-- Create a table 'students'
+CREATE TABLE students (
+  studentID INT PRIMARY KEY AUTO_INCREMENT, 
+  name VARCHAR(100) NOT NULL, DOB DATE NOT NULL, group_id INT, 
+  FOREIGN KEY (group_id) REFERENCES groups(group_id));
+
+
+
+-- Insert data into the 'students' table
+INSERT INTO students (name, DOB, group_id) VALUES
+  ('jeff', '1997-02-11', 1),
+  ('anna', '1998-05-11', 2),
+  ('jack', '1998-05-11', 3),
+  ('mark', '1996-10-01', 4),
+  ('jeff', '1996-01-01', 5),
+  ('jeff', '1997-09-22', 6);
+
+-- Select data from the 'students' table
+SELECT student_id, name FROM students WHERE name = 'jeff';
+
+

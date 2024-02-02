@@ -1,0 +1,42 @@
+CREATE DATABASE tech_academy;
+
+USE tech_academy;
+
+CREATE TABLE instructor (instructor_id INT PRIMARY KEY, fname VARCHAR(50) NOT NULL, lname  VARCHAR(50), Designation VARCHAR(50) NOT NULL);
+
+
+CREATE TABLE enrollments (
+    enrollmentID INT PRIMARY KEY AUTO_INCREMENT,
+    course INT,
+    student INT,
+    paid VARCHAR(5),
+    FOREIGN KEY (course) REFERENCES courses(courseID),
+    FOREIGN KEY (student) REFERENCES students(studentID)
+);
+
+
+
+
+SELECT *
+FROM courses c
+JOIN instructors i ON c.instructor = i.instructorID;
+
+
+
+
+SELECT *
+FROM enrollments e
+JOIN students s ON e.student = s.studentID;
+
+
+
+
+
+SELECT *
+FROM enrollments e
+JOIN courses c ON e.course = c.courseID;
+
+
+
+
+mysqldump -u your_username -p tech_academy > tech_academy_dump.sql
