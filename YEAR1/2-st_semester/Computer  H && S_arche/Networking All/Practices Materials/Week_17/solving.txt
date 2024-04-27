@@ -1,0 +1,82 @@
+VLSM:
+Q. Design a network with root IP 200.0.0.0/22 and which
+have different subnets as follows: 
+1. IT department = 7 users 
+2. Girls Hostel = 111 users 
+3. Staff = 31 users
+4. Boys Hostel = 240 users
+5. Accounts = 63 users
+
+Solution:
+........................................
+To make the optimum use of IP address we design network in 
+descending order
+So,
+1.  Boys Hostel = 240 users
+2.  Girls Hostel = 111 users 
+3.  Accounts = 63 users
+4.  Staff = 31 users
+5.  IT department = 7 users
+
+1.  Boys Hostel = 240 users
+...........................................
+Root IP : 200.0.0.0
+Required ip: 240+2=242(1 for NID, 1 for BID)
+Host bit = 8
+CIDR value = 32 - 8=24
+Network - 200.0.0.0/24
+BSM:	11111111.11111111.11111111.00000000
+SM:	255.255.255.0
+NID:	200.0.0.0
+BID:	200.0.0.255
+
+2. Girls Hostel = 111 users 
+...........................................
+Root IP : 200.0.1.0
+Required ip: 111+2=113
+Host bit : 7
+CIDR value: 32-7=25
+Network : 200.0.1.0/25
+BSM:	11111111.11111111.11111111.10000000
+SM:	255.255.255.128
+NID:	200.0.1.0
+BID:	200.0.1.127
+		
+3.  Accounts = 63 users
+...........................................
+Root IP : 200.0.1.128
+Required ip: 63+2=65
+Host bit : 7
+CIDR value: 25
+Network : 200.0.1.128/25
+BSM:	11111111.11111111.11111111.10000000
+SM:	255.255.255.128
+NID:	200.0.1.128
+BID:	200.0.1.255
+
+
+4.  Staff = 31 users
+...........................................
+Root IP : 200.0.1.128
+Required ip: 31+2 = 33
+Host bit : 6
+CIDR value: 32 - 6 = 26
+Network : 200.0.1.128/25
+BSM:	11111111.11111111.11111111.11000000
+SM:	255.255.255.192
+NID:	200.0.1.63
+BID:	200.0.2.0
+
+
+
+4.  Staff = 31 users
+...........................................
+Root IP : 200.0.1.128
+Required ip: 31+2 = 33
+Host bit : 6
+CIDR value: 32 - 6 = 26
+Network : 200.0.1.128/26
+BSM:	11111111.11111111.11111111.11000000
+SM:	255.255.255.192
+NID:	200.0.1.128
+BID:	200.0.1.192

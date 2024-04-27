@@ -1,0 +1,89 @@
+# for Confugering terminal of router
+enable
+configure terminal
+hostname janak
+exit
+write
+
+for enableling password
+enable
+conf
+enable password <password here>
+exit
+enable
+
+
+for hiding password:-
+enable
+conf
+enable secret <password here>
+exit
+enable
+
+
+for giving router port ip and for start
+enable
+conf
+interface fa0/0
+ip address 192.168.1.254 255.255.255.0       #by exiit( show ip interface birief ) withou(do show ip interface birief)
+no shutdown
+
+same for anouther port
+
+
+
+
+
+
+how to make DHCP server in router
+- we make  pool
+- we make globally
+
+commads
+ip dhcp pool <pool name>
+default-router 192.168.1.1
+
+# for reserving ip
+ip dhcp excluded-address 192.168.1.1 192.168.1.10
+
+dns-server <we will use google dns> eg 8.8.8.8
+network 192.168.1.0 255.255.255.255.0
+exit
+
+
+how to configure telnet/ or configuring router by pc or labtop ?
+conmmands 
+line vty 0 4
+login local
+
+how to make local urname and pwd
+username <Uname> password <pwd>  // it is prerequisit of telnet
+write
+
+and check through cmd
+by - telnet <ip of telnet>
+
+
+////////////////////////////////////////////////
+telnet <ip>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ip dhcp excluded-address 192.168.1.1 192.168.1.20
+ip dhcp pool right
+network 192.168.2.0 255.255.255.0
+no default-router 192.168.2.1
+default-router 192.168.2.11
+dns-server 8.8.8.8
+exit
+show run

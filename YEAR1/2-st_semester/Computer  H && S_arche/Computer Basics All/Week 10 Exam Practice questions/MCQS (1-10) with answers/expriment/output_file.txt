@@ -1,0 +1,60 @@
+1. Which computer component contains all the circuitry necessary
+2. Which case type is typically used for servers?
+3. What is the most reliable way for users to buy the correct RAM to upgrade a
+4. Which two connectors are used to connect external peripherals? (Choose two.)
+5. What type of memory stores information as patterns of transistors on and
+6. A technician is installing a new power supply in a computer. Which
+7. A field technician has been asked to install a wireless 802.11g NIC in a
+8. Which component is installed to keep the CPU cool?
+9. Which power device would be best to attach to your computer if you were having
+10. What was the original name for a monitor?
+11. Which power problem is an overvoltage condition that lasts for up to several
+12. Which of the following can be upgraded by replacing only those components?
+13. Which power problem is an under voltage condition that results in the
+14. What does ESD stand for?
+15. Which motherboard design style is the most popular?
+16. A customer complains that his hard disk is making a lot of noise. After examining
+17. ESD would cause the most damage to which component?
+18. Resistance is measured in………….?
+19. A hard disk is divided into tracks which are further
+20. What is the permanent memory built into your computer called?
+21. The capacity of your hard drive is measured in
+22. Which two devices commonly effect wireless LAN?
+23. What are the two categories that are used to classify CPU architectures?
+24. What safety precaution should be used when working with PC hardware?
+25. Which of the following would provide continuous power to various devices
+26. How many pins does a standard IDE controller have?
+27. A user would like to buy a new computer and will eventually add several hard
+28. When Jane proudly displayed her new motherboard, the senior tech scratched
+29. Which of the following is not controlled by the Northbridge?
+30. _____________is the dedicated bus used to communicate between North Bridge
+1. A
+2. C
+3. D
+4. C,D
+5. A. SRAM-It's storage method is to use a pattern of transistor on and offs to represent
+6. D
+7. A,D
+8. B
+9. A
+10.A
+11. B
+12. B,D
+13. D
+14. D
+15. A
+16. B
+17. B
+18. C
+19. B
+20. B
+21. D
+22. C,D
+23. C,E
+24.A
+25. C
+26. B
+27. D
+28. C
+29. B
+30. B

@@ -1,0 +1,49 @@
+To go to privilige mode:
+.............................
+router>enable
+
+To go to configuration mode:
+.............................
+router#configure terminal
+router(config)#exit
+
+To change the hostname
+..............................
+router(config)#hostname AMAR
+
+To save the configuration
+...........................
+router(config)#hostname AMAR
+router(config)#exitrouter#write
+
+To put password in router:
+..........................................
+router(config)#enable password amar  ... plain text
+router(config)#enable secret amar   ... encrypted
+
+To remove password :
+...........................................
+router(config)#no enable password
+
+To provide ip address in interface
+.............................................
+router(config)#interface gig0/0
+router(config-if)#ip address 192.168.1.254 255.255.255.0
+router(config-if)#no shutdown
+
+router(config)#interface gig0/1
+router(config-if)#ip address 192.168.2.1 255.255.255.0
+router(config-if)#no shutdown
+
+
+To see configuration of router
+............................................
+router#show running-config
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+
+                                    ICP Rental Pokhara
+                                10, Hospital Chowk, Pokhara
+
+Customer Details:                                                         Date: 2024-04-15
+Name: bishwas
+Address: Nepalgunj
+Phone: 980000000
+
++---------------------+------------------+-------------+---------+----------+-----------------+
+|     Kitaa Number    |    Location      |  Direction  | Total Anna | Price in Rs |   Name    |
++---------------------+------------------+-------------+---------+----------+-----------------+
+|        108          |   Nepalgunj      |    West     |    8       |  70000      | bishwas   |
++---------------------+------------------+-------------+---------+----------+-----------------+
+
+Total: Rs null
+VAT (13%) Rs: Rs null*vat/100
+Grand Total Rs: 3000
+
+Additional Data:
+Months:            9                                 
+Return Date:    2024-04-15 08:05:18       
+===================================================|
+| Total Fine:                  5000                |
+===================================================|
